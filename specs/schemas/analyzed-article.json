@@ -1,0 +1,79 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://ai-knowledge-base/specs/schemas/analyzed-article.json",
+  "title": "AnalyzedArticle",
+  "description": "Analyzer Agent 输出的分析后数据格式",
+  "type": "object",
+  "required": ["title", "url", "source", "popularity", "summary", "tags", "key_points", "difficulty"],
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "项目名称",
+      "minLength": 1
+    },
+    "url": {
+      "type": "string",
+      "description": "GitHub 仓库链接",
+      "format": "uri",
+      "pattern": "^https://github\\.com/"
+    },
+    "source": {
+      "type": "string",
+      "description": "数据来源标识",
+      "enum": ["github_trending", "hacker_news"]
+    },
+    "popularity": {
+      "type": "integer",
+      "description": "热度指标（stars 数或今日增量）",
+      "minimum": 0
+    },
+    "summary": {
+      "type": "string",
+      "description": "AI 生成的中文摘要（100字内）",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "tags": {
+      "type": "array",
+      "description": "技术标签（3-5个）",
+      "minItems": 3,
+      "maxItems": 5,
+      "items": {
+        "type": "string",
+        "enum": [
+          "llm",
+          "agent",
+          "rag",
+          "langchain",
+          "fine-tuning",
+          "prompt-engineering",
+          "multimodal",
+          "embedding",
+          "vector-db",
+          "deployment",
+          "api",
+          "tool",
+          "tutorial",
+          "demo",
+          "production",
+          "terminal"
+        ]
+      }
+    },
+    "key_points": {
+      "type": "array",
+      "description": "关键亮点（3-5条）",
+      "minItems": 3,
+      "maxItems": 5,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "difficulty": {
+      "type": "string",
+      "description": "难度等级",
+      "enum": ["beginner", "intermediate", "advanced"]
+    }
+  }
+}

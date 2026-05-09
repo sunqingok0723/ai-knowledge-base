@@ -1,0 +1,24 @@
+{
+  "id": "20260508_gpt_004",
+  "title": "LangChain - Agent 工程平台",
+  "source_url": "https://github.com/langchain-ai/langchain",
+  "source": "github_api",
+  "summary": "LangChain 是构建 LLM 应用的标准框架，提供 Chain、Agent、Memory、Tools 等抽象，简化了从原型到生产的全流程，136K stars 使其成为 LLM 工程的首选。",
+  "content": {
+    "key_points": [
+      "完整抽象链：Prompt → LLM → Parser → Chain → Agent 的全流程支持",
+      "丰富的集成：100+ 工具集成（搜索引擎、数据库、API、文件系统）",
+      "多语言支持：Python、TypeScript、Java、Go 等多 SDK",
+      "LangGraph：新增的图编排能力，支持复杂 Agent 工作流",
+      "生产就绪：完善的监控、追踪、部署工具支持"
+    ],
+    "tech_tags": ["agent-framework", "langchain", "llm-engineering", "workflow", "production-ready"],
+    "difficulty": "intermediate",
+    "value_score": 9,
+    "value_reason": "LLM 工程的事实标准，从个人项目到企业应用都有广泛使用。生态成熟、文档完善，是构建 AI 应用的起点"
+  },
+  "collected_at": "2026-05-08T10:31:59Z",
+  "analyzed_at": "2026-05-08T11:00:00Z",
+  "status": "pending",
+  "distributed_to": []
+}

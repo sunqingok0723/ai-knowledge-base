@@ -1,0 +1,24 @@
+{
+  "id": "20260508_gpt_005",
+  "title": "open-webui - 开源 AI 界面",
+  "source_url": "https://github.com/open-webui/open-webui",
+  "source": "github_api",
+  "summary": "open-webui 是用户友好的 AI 交互界面，支持 Ollama、OpenAI API 等多种后端，提供类似 ChatGPT 的体验，可私有化部署，136K stars 使其成为本地 AI 的热门选择。",
+  "content": {
+    "key_points": [
+      "多后端支持：Ollama、OpenAI、Claude、本地 LLM 统一接入",
+      "私有化部署：Docker 一键部署，数据完全可控",
+      "功能丰富：聊天、文件上传、代码高亮、语音输入、图像生成",
+      "用户管理：支持多用户、权限控制、使用统计",
+      "社区活跃：频繁更新，快速跟进新模型和功能"
+    ],
+    "tech_tags": ["ui", "self-hosted", "ollama", "chat-interface", "docker"],
+    "difficulty": "beginner",
+    "value_score": 7,
+    "value_reason": "适合快速搭建私有 AI 界面，降低了本地 LLM 的使用门槛。但核心价值在 UI，技术创新性有限"
+  },
+  "collected_at": "2026-05-08T10:31:59Z",
+  "analyzed_at": "2026-05-08T11:00:00Z",
+  "status": "pending",
+  "distributed_to": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "20260508_gpt_003",
+  "title": "hermes-agent - 进化型 AI Agent",
+  "source_url": "https://github.com/NousResearch/hermes-agent",
+  "source": "github_api",
+  "summary": "NousResearch 出品的 hermes-agent 是一个能够持续学习和进化的 AI Agent，具备动态技能获取和任务适应能力，代表了 Agent 技术的前沿方向。",
+  "content": {
+    "key_points": [
+      "动态学习：Agent 可以在运行中学习新技能，无需重新训练",
+      "技能图谱：构建可组合的技能库，支持技能复用和组合",
+      "多模态推理：支持文本、图像、代码等多种输入类型",
+      "NousResearch 背书：在开源 LLM 微调领域有深厚积累",
+      "实验性强：适合研究前沿 Agent 技术，生产使用需谨慎"
+    ],
+    "tech_tags": ["agent", "reinforcement-learning", "meta-learning", "nousresearch", "evolutionary"],
+    "difficulty": "advanced",
+    "value_score": 8,
+    "value_reason": "技术路线新颖，探索了 Agent 的学习和进化方向。138K stars 说明社区认可度高，但实际应用场景尚待探索"
+  },
+  "collected_at": "2026-05-08T10:31:59Z",
+  "analyzed_at": "2026-05-08T11:00:00Z",
+  "status": "pending",
+  "distributed_to": []
+}

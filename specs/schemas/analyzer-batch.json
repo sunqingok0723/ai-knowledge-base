@@ -1,0 +1,10 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://ai-knowledge-base/specs/schemas/analyzer-batch.json",
+  "title": "AnalyzerBatch",
+  "description": "Analyzer Agent 批量输出格式（文件级）",
+  "type": "array",
+  "items": {
+    "$ref": "analyzed-article.json"
+  }
+}

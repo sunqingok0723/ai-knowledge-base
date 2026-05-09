@@ -1,0 +1,23 @@
+{
+  "id": "20260508_ght_004",
+  "title": "PageIndex - 无向量 RAG 文档索引方案",
+  "source_url": "https://github.com/VectifyAI/PageIndex",
+  "source": "github_trending",
+  "summary": "挑战传统 RAG 范式的创新方案，提出基于推理而非向量相似度的文档索引技术，在降低成本的同时提升检索准确性。",
+  "content": {
+    "key_points": [
+      "创新性提出'推理索引'概念，无需向量数据库即可实现高质量检索",
+      "显著降低 RAG 部署成本（省去向量 embedding 和存储开销）",
+      "支持多模态文档解析（PDF、网页、Markdown）",
+      "技术路线新颖，可能引发 RAG 领域的技术范式转变"
+    ],
+    "tech_tags": ["rag", "innovation", "vectorless", "retrieval", "document-processing"],
+    "difficulty": "advanced",
+    "value_score": 7,
+    "value_reason": "技术创新性强，挑战了向量 RAG 的主流范式。但实际效果需更多验证，建议关注但不急于生产部署"
+  },
+  "collected_at": "2026-05-08T09:00:00Z",
+  "analyzed_at": "2026-05-08T10:30:00Z",
+  "status": "pending",
+  "distributed_to": []
+}

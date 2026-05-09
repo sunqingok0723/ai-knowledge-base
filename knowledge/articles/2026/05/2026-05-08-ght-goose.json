@@ -1,0 +1,23 @@
+{
+  "id": "20260508_ght_006",
+  "title": "goose - 全栈自主 AI Agent",
+  "source_url": "https://github.com/aaif-goose/goose",
+  "source": "github_trending",
+  "summary": "超越代码补全的全栈 AI Agent，支持自主安装依赖、执行代码、编辑文件和运行测试，是迈向自主编程助手的重要一步。",
+  "content": {
+    "key_points": [
+      "突破传统代码建议的局限，实现端到端的代码开发闭环",
+      "支持全栈开发：前端、后端、数据库、DevOps 任务全覆盖",
+      "兼容多种 LLM 后端，模型选择灵活",
+      "开源且可扩展，用户可自定义 Agent 行为"
+    ],
+    "tech_tags": ["agent", "llm", "full-stack", "automation", "dev-tools"],
+    "difficulty": "intermediate",
+    "value_score": 7,
+    "value_reason": "代表了 AI 编程助手从'建议'到'执行'的演进方向。实际可用性需验证，但思路值得学习"
+  },
+  "collected_at": "2026-05-08T09:00:00Z",
+  "analyzed_at": "2026-05-08T10:30:00Z",
+  "status": "pending",
+  "distributed_to": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "20260508_gpt_007",
+  "title": "browser-use - 浏览器自动化 Agent",
+  "source_url": "https://github.com/browser-use/browser-use",
+  "source": "github_api",
+  "summary": "browser-use 让网站对 AI Agent 可访问，通过自然语言指令驱动浏览器自动化，支持复杂交互和任务执行，93K stars 代表了 AI 自动化的新方向。",
+  "content": {
+    "key_points": [
+      "自然语言控制：用自然语言描述任务，Agent 自动完成浏览器操作",
+      "智能交互：支持点击、输入、滚动、截图、多标签页等复杂操作",
+      "错误恢复：Agent 可以检测错误并自动重试或调整策略",
+      "多浏览器支持：Chrome、Firefox、Safari 等主流浏览器",
+      "应用场景：自动化测试、数据采集、RPA、表单填写"
+    ],
+    "tech_tags": ["browser-automation", "agent", "playwright", "rpa", "web-scraping"],
+    "difficulty": "intermediate",
+    "value_score": 8,
+    "value_reason": "将 LLM 与浏览器自动化结合，降低了自动化开发的门槛。实用性高，适合各种自动化场景"
+  },
+  "collected_at": "2026-05-08T10:31:59Z",
+  "analyzed_at": "2026-05-08T11:00:00Z",
+  "status": "pending",
+  "distributed_to": []
+}

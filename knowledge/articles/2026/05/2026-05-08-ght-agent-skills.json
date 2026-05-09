@@ -1,0 +1,23 @@
+{
+  "id": "20260508_ght_002",
+  "title": "agent-skills - AI Agent 工程技能框架",
+  "source_url": "https://github.com/addyosmani/agent-skills",
+  "source": "github_trending",
+  "summary": "Google Chrome 团队成员推出的 AI Agent 工程技能框架，定义了一套标准化的 Agent 能力评估体系和最佳实践，解决 AI 编码 Agent 在生产环境中的可靠性问题。",
+  "content": {
+    "key_points": [
+      "定义了 15+ 项生产级 Agent 核心技能（代码审查、依赖管理、性能优化等）",
+      "提供标准化评估框架，可量化不同 Agent 的能力水平",
+      "源自 Chrome 团队实战经验，权威性和落地性强",
+      "填补了 AI Agent 工程化标准的空白，对行业有指导意义"
+    ],
+    "tech_tags": ["agent-framework", "engineering", "best-practices", "evaluation", "llm"],
+    "difficulty": "beginner",
+    "value_score": 8,
+    "value_reason": "解决了 Agent 生产化落地的关键问题——能力标准化。虽然技术门槛低，但对推动行业规范化有重要价值"
+  },
+  "collected_at": "2026-05-08T09:00:00Z",
+  "analyzed_at": "2026-05-08T10:30:00Z",
+  "status": "pending",
+  "distributed_to": []
+}

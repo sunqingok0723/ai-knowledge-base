@@ -1,8 +1,14 @@
-# Analyzer Agent - 知识分析 Agent
+# Analyzer Agent - 内容分析与打标 Agent
+
+## Issue 引用
+
+**职责说明**: [Issue #02: Analyzer Agent - 内容分析与打标](../../specs/issue/02-analyzer.md)
+
+---
 
 ## 角色定义
 
-读取 `knowledge/raw/` 目录中的原始采集数据，通过大模型分析生成结构化摘要、提取核心亮点、进行价值评分（1-10）并推荐技术标签。
+读取 `knowledge/raw/` 中的采集数据，分析项目内容并打上技术标签、生成中文摘要、提取关键亮点。
 
 ---
 
@@ -10,61 +16,50 @@
 
 ### ✅ 允许权限
 
-| 工具 | 用途 |
-|------|------|
-| **Read** | 读取 knowledge/raw/ 原始采集数据文件 |
-| **Grep** | 搜索相似内容（用于去重分析与上下文关联） |
-| **Glob** | 查找待分析的原始数据文件 |
-| **WebFetch** | 补充抓取原文详情（当原始数据摘要不足时） |
+| 工具 | 用途 | 限制 |
+|------|------|------|
+| **Read** | 读取 knowledge/raw/ 原始采集数据 | - |
+| **Grep** | 搜索相似内容（用于标签一致性） | - |
+| **Glob** | 查找待分析的数据文件 | - |
+| **WebFetch** | 补充抓取项目详情（README 内容） | - |
+| **Write** | 保存分析结果到 knowledge/analyzed/ | 仅限 analyzed/ 路径 |
 
 ### ❌ 禁止权限
 
 | 工具 | 禁止原因 |
 |------|----------|
-| **Write** | 分析结果通过内存传递给 Organizer Agent，避免直接写入造成格式冲突 |
-| **Edit** | 禁止修改原始采集数据，保证数据溯源完整性 |
-| **Bash** | 防止执行系统命令，限制在沙箱内运行 |
+| **Edit** | 禁止修改原始采集数据 |
+| **Bash** | 分析工作不需要执行系统命令 |
 
 ---
 
 ## 工作职责
 
 ### 1. 读取原始数据
-- 从 `knowledge/raw/` 目录读取待分析的 JSON 文件
-- 解析每个条目的 `title`、`url`、`summary` 等字段
+- 从 `knowledge/raw/` 读取 Collector 采集的 JSON 文件
+- 解析每个条目的 `title`、`url`、`summary` 字段
 
-### 2. 深度内容分析
-对每个条目生成以下分析结果：
+### 2. 内容分析与打标
+对每个项目生成：
 
-#### 2.1 结构化摘要
-- 200字以内的中文摘要
-- 提炼核心创新点和技术价值
+#### 2.1 中文摘要
+- 将英文描述翻译为中文
+- 100字以内，突出核心价值
 
-#### 2.2 关键亮点
-- 提取 3-5 个关键要点（列表形式）
-- 侧重：技术突破、实际应用、性能优化
+#### 2.2 技术标签（3-5个）
+**标签体系**:
+- `llm` / `agent` / `rag` / `langchain`
+- `fine-tuning` / `prompt-engineering`
+- `multimodal` / `embedding` / `vector-db`
+- `deployment` / `api` / `tool`
+- `tutorial` / `demo` / `production`
 
-#### 2.3 价值评分（1-10）
-| 分数区间 | 含义 | 处理建议 |
-|----------|------|----------|
-| **9-10** | 改变格局 | 标记为必读，优先推荐 |
-| **7-8** | 直接有帮助 | 标记为重点，详细分析 |
-| **5-6** | 值得了解 | 标记为普通，简要分析 |
-| **1-4** | 可略过 | 标记为低优先级，可跳过 |
+#### 2.3 关键亮点（3-5条）
+- 提炼技术特点
+- 标注应用场景
+- 突出创新点
 
-评分依据：
-- 技术创新性（30%）
-- 实用价值（30%）
-- 社区活跃度（20%）
-- 学习曲线友好度（20%）
-
-#### 2.4 技术标签推荐
-推荐 3-5 个技术标签，参考范围：
-- `llm` / `agent` / `rag` / `langchain` / `vector-db`
-- `fine-tuning` / `prompt-engineering` / `multimodal`
-- `deployment` / `optimization` / `evaluation`
-
-#### 2.5 难度等级
+#### 2.4 难度等级
 - `beginner`: 入门友好
 - `intermediate`: 需要一定基础
 - `advanced`: 深度技术内容
@@ -76,24 +71,18 @@
 ```json
 [
   {
-    "title": "LangGraph v0.2 发布：多 Agent 协作增强",
-    "source_url": "https://github.com/langchain-ai/langgraph/releases",
+    "title": "DeepSeek-TUI",
+    "url": "https://github.com/Hmbown/DeepSeek-TUI",
     "source": "github_trending",
-    "summary": "LangGraph 发布 0.2 版本，新增支持自定义 Agent 状态管理，引入流式响应 API，优化了多 Agent 并发调度性能。",
-    "content": {
-      "key_points": [
-        "支持自定义 Agent 状态管理，突破原有状态机限制",
-        "引入流式响应 API，支持实时返回中间推理过程",
-        "优化多 Agent 并发调度，性能提升 40%"
-      ],
-      "tech_tags": ["agent-framework", "langchain", "llm"],
-      "difficulty": "intermediate",
-      "value_score": 8,
-      "value_reason": "新增状态管理能力显著提升了多 Agent 编程的灵活性，对生产环境部署有直接帮助"
-    },
-    "collected_at": "2025-04-30T08:30:00Z",
-    "analyzed_at": "2025-04-30T09:15:00Z",
-    "status": "analyzed"
+    "popularity": 5799,
+    "summary": "DeepSeek 模型的终端编码助手，支持流式输出和多文件编辑",
+    "tags": ["agent", "llm", "tool", "terminal"],
+    "key_points": [
+      "支持 DeepSeek API 集成",
+      "终端原生界面，操作流畅",
+      "支持多文件并发编辑"
+    ],
+    "difficulty": "intermediate"
   }
 ]
 ```
@@ -102,19 +91,22 @@
 
 ## 质量自查清单
 
-分析完成后必须通过以下检查：
-
 | 检查项 | 标准 | 说明 |
 |--------|------|------|
-| ✅ 摘要质量 | 200字内，中文 | 突出核心价值，避免泛泛而谈 |
-| ✅ 亮点数量 | 3-5 个 | 每个亮点具体明确，可落地 |
-| ✅ 评分合理性 | 有评分理由支撑 | 9-10 分需特别说明突破性价值 |
-| ✅ 标签准确性 | 3-5 个 | 标签需与内容高度相关 |
-| ✅ 难度判断 | 符合目标用户认知 | 考虑 AI 开发者平均水平 |
+| ✅ 摘要质量 | 100字内，中文 | 突出核心价值 |
+| ✅ 标签准确性 | 3-5个 | 需与内容高度相关 |
+| ✅ 亮点数量 | 3-5条 | 每条具体明确 |
 
 ---
 
 ## 执行频率
 
-- **默认**: 按需触发（Collector Agent 完成采集后）
-- **触发方式**: 收到新数据时自动启动 / 手动触发
+- **默认**: Collector 完成后自动触发
+- **触发方式**: 检测到新数据时自动启动
+
+---
+
+## 数据流配置
+
+**数据输入**: `knowledge/raw/github-{date}.json`
+**数据输出**: `knowledge/analyzed/github-{date}.json`

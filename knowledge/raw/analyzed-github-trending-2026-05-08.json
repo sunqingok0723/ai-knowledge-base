@@ -1,0 +1,149 @@
+[
+  {
+    "title": "Hmbown / DeepSeek-TUI",
+    "source_url": "https://github.com/Hmbown/DeepSeek-TUI",
+    "source": "github_trending",
+    "summary": "基于 Rust 开发的 DeepSeek 终端 AI 编程助手，在 TUI 环境中提供实时代码生成、调试和重构能力，今日新增 5799 stars，成为 GitHub Trending 榜首。",
+    "content": {
+      "key_points": [
+        "纯 Rust 实现，性能卓越且内存占用极低",
+        "支持 DeepSeek 系列模型（V3/Coder），本地运行保障数据隐私",
+        "终端原生体验，支持语法高亮、多文件编辑和 Git 集成",
+        "开源社区活跃，5800+ 日增星说明市场需求强烈"
+      ],
+      "tech_tags": ["rust", "deepseek", "agent", "terminal", "llm"],
+      "difficulty": "intermediate",
+      "value_score": 9,
+      "value_reason": "改变了终端开发的工作方式，Rust + DeepSeek 的组合代表了 AI 编程工具的新方向，对追求隐私和性能的开发者极具吸引力"
+    },
+    "collected_at": "2026-05-08T09:00:00Z",
+    "analyzed_at": "2026-05-08T10:30:00Z",
+    "status": "analyzed"
+  },
+  {
+    "title": "addyosmani / agent-skills",
+    "source_url": "https://github.com/addyosmani/agent-skills",
+    "source": "github_trending",
+    "summary": "Google Chrome 团队成员推出的 AI Agent 工程技能框架，定义了一套标准化的 Agent 能力评估体系和最佳实践，解决 AI 编码 Agent 在生产环境中的可靠性问题。",
+    "content": {
+      "key_points": [
+        "定义了 15+ 项生产级 Agent 核心技能（代码审查、依赖管理、性能优化等）",
+        "提供标准化评估框架，可量化不同 Agent 的能力水平",
+        "源自 Chrome 团队实战经验，权威性和落地性强",
+        "填补了 AI Agent 工程化标准的空白，对行业有指导意义"
+      ],
+      "tech_tags": ["agent-framework", "engineering", "best-practices", "evaluation", "llm"],
+      "difficulty": "beginner",
+      "value_score": 8,
+      "value_reason": "解决了 Agent 生产化落地的关键问题——能力标准化。虽然技术门槛低，但对推动行业规范化有重要价值"
+    },
+    "collected_at": "2026-05-08T09:00:00Z",
+    "analyzed_at": "2026-05-08T10:30:00Z",
+    "status": "analyzed"
+  },
+  {
+    "title": "anthropics / financial-services",
+    "source_url": "https://github.com/anthropics/financial-services",
+    "source": "github_trending",
+    "summary": "Anthropic 官方发布的金融垂直领域 AI Agent 应用示例，展示 Claude 在合规性要求极高的金融服务场景中的最佳实践。",
+    "content": {
+      "key_points": [
+        "展示了 LLM 在受监管行业的合规框架（审计日志、权限控制）",
+        "包含金融分析、风险评估、报告生成等核心场景的完整实现",
+        "提供 Prompt 工程模板和工具调用示例，可直接复用",
+        "Anthropic 官方背书，代表了 Claude 在企业级应用的标杆"
+      ],
+      "tech_tags": ["claude", "anthropic", "agent", "finance", "enterprise"],
+      "difficulty": "advanced",
+      "value_score": 8,
+      "value_reason": "填补了 AI Agent 在金融垂直领域的最佳实践空白，对要进入企业级市场的开发者有直接参考价值"
+    },
+    "collected_at": "2026-05-08T09:00:00Z",
+    "analyzed_at": "2026-05-08T10:30:00Z",
+    "status": "analyzed"
+  },
+  {
+    "title": "VectifyAI / PageIndex",
+    "source_url": "https://github.com/VectifyAI/PageIndex",
+    "source": "github_trending",
+    "summary": "挑战传统 RAG 范式的创新方案，提出基于推理而非向量相似度的文档索引技术，在降低成本的同时提升检索准确性。",
+    "content": {
+      "key_points": [
+        "创新性提出'推理索引'概念，无需向量数据库即可实现高质量检索",
+        "显著降低 RAG 部署成本（省去向量 embedding 和存储开销）",
+        "支持多模态文档解析（PDF、网页、Markdown）",
+        "技术路线新颖，可能引发 RAG 领域的技术范式转变"
+      ],
+      "tech_tags": ["rag", "innovation", "vectorless", "retrieval", "document-processing"],
+      "difficulty": "advanced",
+      "value_score": 7,
+      "value_reason": "技术创新性强，挑战了向量 RAG 的主流范式。但实际效果需更多验证，建议关注但不急于生产部署"
+    },
+    "collected_at": "2026-05-08T09:00:00Z",
+    "analyzed_at": "2026-05-08T10:30:00Z",
+    "status": "analyzed"
+  },
+  {
+    "title": "LearningCircuit / local-deep-research",
+    "source_url": "https://github.com/LearningCircuit/local-deep-research",
+    "source": "github_trending",
+    "summary": "本地化深度研究 Agent，在 SimpleQA 基准测试上达到 95% 准确率，支持消费级显卡（3090）运行，是本地 AI 研究的突破性进展。",
+    "content": {
+      "key_points": [
+        "在 SimpleQA 上达到 95% 准确率，媲美云端大模型表现",
+        "支持本地 LLM（llama.cpp、Ollama）和云端模型混合部署",
+        "集成 10+ 搜索引擎（arXiv、PubMed），支持私有文档检索",
+        "完全本地运行且加密，适合对隐私敏感的研究场景"
+      ],
+      "tech_tags": ["llm", "local-llm", "research", "rag", "privacy"],
+      "difficulty": "intermediate",
+      "value_score": 8,
+      "value_reason": "解决了本地 AI 研究的质量难题，95% 准确率意味着可以在不牺牲隐私的前提下获得专业级研究能力"
+    },
+    "collected_at": "2026-05-08T09:00:00Z",
+    "analyzed_at": "2026-05-08T10:30:00Z",
+    "status": "analyzed"
+  },
+  {
+    "title": "aaif-goose / goose",
+    "source_url": "https://github.com/aaif-goose/goose",
+    "source": "github_trending",
+    "summary": "超越代码补全的全栈 AI Agent，支持自主安装依赖、执行代码、编辑文件和运行测试，是迈向自主编程助手的重要一步。",
+    "content": {
+      "key_points": [
+        "突破传统代码建议的局限，实现端到端的代码开发闭环",
+        "支持全栈开发：前端、后端、数据库、DevOps 任务全覆盖",
+        "兼容多种 LLM 后端，模型选择灵活",
+        "开源且可扩展，用户可自定义 Agent 行为"
+      ],
+      "tech_tags": ["agent", "llm", "full-stack", "automation", "dev-tools"],
+      "difficulty": "intermediate",
+      "value_score": 7,
+      "value_reason": "代表了 AI 编程助手从'建议'到'执行'的演进方向。实际可用性需验证，但思路值得学习"
+    },
+    "collected_at": "2026-05-08T09:00:00Z",
+    "analyzed_at": "2026-05-08T10:30:00Z",
+    "status": "analyzed"
+  },
+  {
+    "title": "vercel-labs / open-agents",
+    "source_url": "https://github.com/vercel-labs/open-agents",
+    "source": "github_trending",
+    "summary": "Vercel 实验室发布的云端 AI Agent 开发模板，提供从 Prompt 工程到部署的完整最佳实践，简化 Agent 应用的云端化流程。",
+    "content": {
+      "key_points": [
+        "开箱即用的 Agent 部署模板，支持 Vercel AI SDK 集成",
+        "包含流式响应、工具调用、记忆管理等核心功能的实现",
+        "天然集成 Vercel 生态系统（Vercel AI、Edge Runtime）",
+        "适合快速验证 Agent 原型并上线生产"
+      ],
+      "tech_tags": ["agent", "vercel", "deployment", "template", "cloud"],
+      "difficulty": "beginner",
+      "value_score": 6,
+      "value_reason": "降低了 Agent 上云的门槛，适合快速原型开发。但受限于 Vercel 技术栈，非 Vercel 用户参考价值有限"
+    },
+    "collected_at": "2026-05-08T09:00:00Z",
+    "analyzed_at": "2026-05-08T10:30:00Z",
+    "status": "analyzed"
+  }
+]

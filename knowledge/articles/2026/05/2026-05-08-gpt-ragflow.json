@@ -1,0 +1,24 @@
+{
+  "id": "20260508_gpt_008",
+  "title": "RAGFlow - RAG + Agent 引擎",
+  "source_url": "https://github.com/infiniflow/ragflow",
+  "source": "github_api",
+  "summary": "RAGFlow 是领先的开源 RAG 引擎，将检索增强生成与 Agent 能力融合，为 LLM 提供强大的上下文层，支持企业级知识问答和文档分析。",
+  "content": {
+    "key_points": [
+      "深度文档理解：支持 PDF、Word、PPT、Excel 等多种格式",
+      "智能检索：混合检索（关键词+向量）、重排序、上下文压缩",
+      "Agent 能力：检索结果可通过 Agent 进一步处理和推理",
+      "企业特性：权限控制、审计日志、多租户支持",
+      "易于部署：Docker Compose 一键部署，支持分布式扩展"
+    ],
+    "tech_tags": ["rag", "agent", "knowledge-base", "enterprise", "document-processing"],
+    "difficulty": "intermediate",
+    "value_score": 8,
+    "value_reason": "RAG + Agent 的融合是趋势，RAGFlow 实现较为完整。适合构建企业知识库和文档分析系统"
+  },
+  "collected_at": "2026-05-08T10:31:59Z",
+  "analyzed_at": "2026-05-08T11:00:00Z",
+  "status": "pending",
+  "distributed_to": []
+}

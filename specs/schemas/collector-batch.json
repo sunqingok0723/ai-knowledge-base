@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://ai-knowledge-base/specs/schemas/collector-batch.json",
+  "title": "CollectorBatch",
+  "description": "Collector Agent 批量输出格式（文件级）",
+  "type": "array",
+  "items": {
+    "$ref": "raw-article.json"
+  },
+  "minItems": 10
+}

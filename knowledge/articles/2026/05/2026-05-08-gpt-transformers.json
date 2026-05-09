@@ -1,0 +1,24 @@
+{
+  "id": "20260508_gpt_002",
+  "title": "Transformers - Hugging Face ML 框架",
+  "source_url": "https://github.com/huggingface/transformers",
+  "source": "github_api",
+  "summary": "Hugging Face Transformers 是现代机器学习的事实标准框架，支持 10 万+ 预训练模型，覆盖 NLP、CV、音频和多模态任务，160K stars 使其成为 ML 领域的基石项目。",
+  "content": {
+    "key_points": [
+      "统一 API：一个框架支持 PyTorch、JAX、TensorFlow 三大后端",
+      "模型生态：10 万+ 预训练模型，涵盖 BERT、GPT、T5、Whisper、CLIP 等",
+      "任务全覆盖：文本分类、问答、翻译、摘要、图像分类、语音识别等",
+      "企业级特性：量化、蒸馏、训练优化、部署工具链完善",
+      "社区活跃：每日更新，是 AI 开发者的必选依赖"
+    ],
+    "tech_tags": ["ml-framework", "huggingface", "nlp", "pytorch", "pretrained-models"],
+    "difficulty": "beginner",
+    "value_score": 10,
+    "value_reason": "现代 ML 的基础设施级项目，几乎所有 AI 开发者都会用到。学习价值极高，是进入 AI 领域的必修课"
+  },
+  "collected_at": "2026-05-08T10:31:59Z",
+  "analyzed_at": "2026-05-08T11:00:00Z",
+  "status": "pending",
+  "distributed_to": []
+}

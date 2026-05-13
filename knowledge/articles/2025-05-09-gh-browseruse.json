@@ -1,0 +1,21 @@
+{
+  "id": "20250509_gh_008",
+  "title": "Browser Use — 让AI智能体操作网页",
+  "source_url": "https://github.com/browser-use/browser-use",
+  "source": "github_trending",
+  "summary": "Browser Use，让AI智能体操作网页，自动化完成在线任务，9.3万+stars，支持交互式网页操作，可填写表单、点击按钮、提取数据，突破Agent只能处理文本的限制",
+  "content": {
+    "key_points": [
+      "9.3万+stars，支持交互式网页操作",
+      "可填写表单、点击按钮、提取数据",
+      "突破Agent只能处理文本的限制"
+    ],
+    "tech_tags": ["agent", "automation", "tool", "browser"],
+    "difficulty": "intermediate",
+    "score": 7,
+    "score_reason": "突破性工具，让Agent能够操作真实网页，解决了实际自动化需求"
+  },
+  "collected_at": "2025-05-09T12:00:00Z",
+  "analyzed_at": "2025-05-09T14:30:00Z",
+  "status": "analyzed"
+}

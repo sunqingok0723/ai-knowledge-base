@@ -1,0 +1,21 @@
+{
+  "id": "20250509_gh_011",
+  "title": "PaddleOCR — 百度开源的OCR工具库",
+  "source_url": "https://github.com/PaddlePaddle/PaddleOCR",
+  "source": "github_trending",
+  "summary": "PaddleOCR，百度开源的OCR工具库，支持多语言文字识别，7.7万+stars，支持80+语言，准确率高工业级验证，轻量级部署支持移动端",
+  "content": {
+    "key_points": [
+      "7.7万+stars，支持80+语言",
+      "准确率高，工业级验证",
+      "轻量级部署，支持移动端"
+    ],
+    "tech_tags": ["multimodal", "ocr", "tool", "production"],
+    "difficulty": "beginner",
+    "score": 7,
+    "score_reason": "工业级OCR方案，可直接用于生产环境的多语言识别"
+  },
+  "collected_at": "2025-05-09T12:00:00Z",
+  "analyzed_at": "2025-05-09T14:30:00Z",
+  "status": "analyzed"
+}

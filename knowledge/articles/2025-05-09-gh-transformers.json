@@ -1,0 +1,21 @@
+{
+  "id": "20250509_gh_001",
+  "title": "Transformers — 最流行的深度学习模型框架",
+  "source_url": "https://github.com/huggingface/transformers",
+  "source": "github_trending",
+  "summary": "Hugging Face Transformers，定义了NLP开发标准的深度学习模型框架，支持BERT、GPT、Llama等主流模型，16万+stars，实际使用率最高的ML框架，改变了整个NLP生态系统",
+  "content": {
+    "key_points": [
+      "支持 BERT、GPT、Llama 等主流模型",
+      "16万+stars，实际使用率最高的ML框架",
+      "改变了整个NLP生态系统"
+    ],
+    "tech_tags": ["llm", "framework", "machine-learning", "production"],
+    "difficulty": "intermediate",
+    "score": 10,
+    "score_reason": "行业标准框架，改变了整个NLP和LLM生态系统"
+  },
+  "collected_at": "2025-05-09T12:00:00Z",
+  "analyzed_at": "2025-05-09T14:30:00Z",
+  "status": "analyzed"
+}

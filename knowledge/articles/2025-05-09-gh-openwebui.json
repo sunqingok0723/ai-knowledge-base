@@ -1,0 +1,21 @@
+{
+  "id": "20250509_gh_006",
+  "title": "Open WebUI — 用户友好的AI交互界面",
+  "source_url": "https://github.com/open-webui/open-webui",
+  "source": "github_trending",
+  "summary": "Open WebUI，用户友好的AI交互界面，支持Ollama和OpenAI API，13.6万+stars，最流行的开源ChatGPT替代，支持Ollama本地部署，Docker一键部署，上手零门槛",
+  "content": {
+    "key_points": [
+      "13.6万+stars，最流行的开源ChatGPT替代",
+      "支持Ollama本地部署",
+      "Docker一键部署，上手零门槛"
+    ],
+    "tech_tags": ["llm", "ui", "tool", "production"],
+    "difficulty": "beginner",
+    "score": 7,
+    "score_reason": "解决了本地LLM的使用门槛问题，Docker部署极简"
+  },
+  "collected_at": "2025-05-09T12:00:00Z",
+  "analyzed_at": "2025-05-09T14:30:00Z",
+  "status": "analyzed"
+}

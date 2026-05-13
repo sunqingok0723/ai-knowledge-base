@@ -1,0 +1,10 @@
+{
+  "hooks": {
+    "userPromptSubmitHook": [
+      {
+        "pattern": "knowledge/articles/.*\\.json",
+        "command": "python hooks/check_quality.py {matches}"
+      }
+    ]
+  }
+}

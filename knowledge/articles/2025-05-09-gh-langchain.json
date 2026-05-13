@@ -1,0 +1,21 @@
+{
+  "id": "20250509_gh_003",
+  "title": "LangChain — 构建LLM应用的主流框架",
+  "source_url": "https://github.com/langchain-ai/langchain",
+  "source": "github_trending",
+  "summary": "LangChain，构建LLM应用的主流框架，支持链式调用和智能体开发，13.6万+stars，最成熟的Agent开发框架，支持100+集成，文档完善，生产级应用首选框架",
+  "content": {
+    "key_points": [
+      "13.6万+stars，最成熟的Agent开发框架",
+      "支持100+集成，文档完善",
+      "生产级应用首选框架"
+    ],
+    "tech_tags": ["llm", "agent", "rag", "langchain", "production"],
+    "difficulty": "intermediate",
+    "score": 8,
+    "score_reason": "生产级Agent框架，文档完善，集成丰富，可直接用于生产"
+  },
+  "collected_at": "2025-05-09T12:00:00Z",
+  "analyzed_at": "2025-05-09T14:30:00Z",
+  "status": "analyzed"
+}

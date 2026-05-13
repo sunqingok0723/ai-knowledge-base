@@ -1,0 +1,21 @@
+{
+  "id": "20250509_gh_015",
+  "title": "TradingAgents — 多智能体金融交易框架",
+  "source_url": "https://github.com/TauricResearch/TradingAgents",
+  "source": "github_trending",
+  "summary": "TradingAgents，多智能体金融交易框架，LLM驱动的量化交易系统，7.2万+stars，多Agent协同交易，支持A股、美股、港股，集成实时行情和新闻分析",
+  "content": {
+    "key_points": [
+      "7.2万+stars，多Agent协同交易",
+      "支持A股、美股、港股",
+      "集成实时行情和新闻分析"
+    ],
+    "tech_tags": ["agent", "finance", "demo", "fintech"],
+    "difficulty": "advanced",
+    "score": 5,
+    "score_reason": "垂直领域创新应用，但金融交易风险高，需谨慎评估"
+  },
+  "collected_at": "2025-05-09T12:00:00Z",
+  "analyzed_at": "2025-05-09T14:30:00Z",
+  "status": "analyzed"
+}

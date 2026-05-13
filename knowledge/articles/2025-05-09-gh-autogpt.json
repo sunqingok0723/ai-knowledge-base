@@ -1,0 +1,21 @@
+{
+  "id": "20250509_gh_002",
+  "title": "AutoGPT — 首个爆火的自主AI智能体框架",
+  "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+  "source": "github_trending",
+  "summary": "AutoGPT，首个爆火的自主AI智能体框架，可自主完成复杂任务，18万+stars，定义了自主Agent范式，首个自主规划和执行的开源Agent，启发了一代Agent项目",
+  "content": {
+    "key_points": [
+      "18万+stars，定义了自主Agent范式",
+      "首个自主规划和执行的开源Agent",
+      "启发了一代Agent项目"
+    ],
+    "tech_tags": ["agent", "autonomous", "llm", "framework"],
+    "difficulty": "advanced",
+    "score": 9,
+    "score_reason": "开创性项目，定义了自主Agent范式并影响了整个生态"
+  },
+  "collected_at": "2025-05-09T12:00:00Z",
+  "analyzed_at": "2025-05-09T14:30:00Z",
+  "status": "analyzed"
+}

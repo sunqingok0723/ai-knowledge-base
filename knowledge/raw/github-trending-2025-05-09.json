@@ -1,0 +1,127 @@
+{
+  "source": "github_trending",
+  "skill": "github-trending",
+  "collected_at": "2025-05-09T12:00:00Z",
+  "items": [
+    {
+      "name": "Significant-Gravitas/AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "summary": "AutoGPT — 开源 AI 智能体框架，可自主完成复杂任务",
+      "stars": 184102,
+      "language": "Python",
+      "topics": ["llm", "agent", "autonomous", "framework"]
+    },
+    {
+      "name": "huggingface/transformers",
+      "url": "https://github.com/huggingface/transformers",
+      "summary": "Transformers — 最流行的深度学习模型框架，支持 BERT、GPT 等主流模型",
+      "stars": 160407,
+      "language": "Python",
+      "topics": ["llm", "machine-learning", "nlp", "framework"]
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "summary": "Hermes Agent — 持续进化的多功能 AI 智能体，支持任务执行和自我改进",
+      "stars": 139552,
+      "language": "Python",
+      "topics": ["agent", "llm", "autonomous", "assistant"]
+    },
+    {
+      "name": "open-webui/open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "summary": "Open WebUI — 用户友好的 AI 交互界面，支持 Ollama 和 OpenAI API",
+      "stars": 136196,
+      "language": "Python",
+      "topics": ["llm", "ui", "interface", "ollama"]
+    },
+    {
+      "name": "langchain-ai/langchain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "summary": "LangChain — 构建 LLM 应用的主流框架，支持链式调用和智能体开发",
+      "stars": 136183,
+      "language": "Python",
+      "topics": ["llm", "agent", "rag", "langchain"]
+    },
+    {
+      "name": "browser-use/browser-use",
+      "url": "https://github.com/browser-use/browser-use",
+      "summary": "Browser Use — 让 AI 智能体能够操作网页，自动化完成在线任务",
+      "stars": 92995,
+      "language": "Python",
+      "topics": ["agent", "automation", "browser", "web-automation"]
+    },
+    {
+      "name": "infiniflow/ragflow",
+      "url": "https://github.com/infiniflow/ragflow",
+      "summary": "RAGFlow — 企业级 RAG 引擎，支持复杂文档解析和知识检索",
+      "stars": 80024,
+      "language": "Python",
+      "topics": ["rag", "llm", "enterprise", "retrieval"]
+    },
+    {
+      "name": "PaddlePaddle/PaddleOCR",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "summary": "PaddleOCR — 百度开源的 OCR 工具库，支持多语言文字识别",
+      "stars": 77448,
+      "language": "Python",
+      "topics": ["ocr", "multimodal", "computer-vision", "document-processing"]
+    },
+    {
+      "name": "vllm-project/vllm",
+      "url": "https://github.com/vllm-project/vllm",
+      "summary": "vLLM — 高吞吐量 LLM 推理引擎，大幅提升模型部署性能",
+      "stars": 79441,
+      "language": "Python",
+      "topics": ["llm", "inference", "deployment", "performance"]
+    },
+    {
+      "name": "OpenHands/OpenHands",
+      "url": "https://github.com/OpenHands/OpenHands",
+      "summary": "OpenHands — AI 驱动的软件开发助手，可自动编码和调试",
+      "stars": 72947,
+      "language": "Python",
+      "topics": ["agent", "coding", "ai-assistant", "development"]
+    },
+    {
+      "name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "summary": "TradingAgents — 多智能体金融交易框架，LLM 驱动的量化交易系统",
+      "stars": 71956,
+      "language": "Python",
+      "topics": ["agent", "finance", "trading", "fintech"]
+    },
+    {
+      "name": "hiyouga/LlamaFactory",
+      "url": "https://github.com/hiyouga/LlamaFactory",
+      "summary": "LlamaFactory — 统一的 LLM 微调框架，支持 100+ 大模型和视觉模型",
+      "stars": 71062,
+      "language": "Python",
+      "topics": ["fine-tuning", "llm", "training", "framework"]
+    },
+    {
+      "name": "FoundationAgents/MetaGPT",
+      "url": "https://github.com/FoundationAgents/MetaGPT",
+      "summary": "MetaGPT — 多智能体框架，模拟软件公司流程实现自然语言编程",
+      "stars": 67810,
+      "language": "Python",
+      "topics": ["agent", "multi-agent", "software-development", "framework"]
+    },
+    {
+      "name": "bytedance/deer-flow",
+      "url": "https://github.com/bytedance/deer-flow",
+      "summary": "Deer Flow — 字节开源的长周期 SuperAgent，支持研究、编码和创作",
+      "stars": 66140,
+      "language": "Python",
+      "topics": ["agent", "superagent", "research", "automation"]
+    },
+    {
+      "name": "unslothai/unsloth",
+      "url": "https://github.com/unslothai/unsloth",
+      "summary": "Unsloth — 高效的 LLM 训练平台，支持 Gemma、Qwen 等开源模型",
+      "stars": 63837,
+      "language": "Python",
+      "topics": ["fine-tuning", "llm", "training", "optimization"]
+    }
+  ]
+}

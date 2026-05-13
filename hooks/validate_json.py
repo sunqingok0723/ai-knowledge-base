@@ -13,31 +13,33 @@ from pathlib import Path
 from typing import Any
 
 
-# 必填字段定义：字段名 -> 类型
+# 必填字段定义：字段名 -> 类型（按 CLAUDE.md 规范）
 REQUIRED_FIELDS: dict[str, type] = {
     "id": str,
     "title": str,
     "source_url": str,
+    "source": str,
     "summary": str,
-    "tags": list,
+    "content": dict,
+    "collected_at": str,
     "status": str,
 }
 
-# 状态枚举
-VALID_STATUSES = {"draft", "review", "published", "archived"}
+# 状态枚举（按 CLAUDE.md 规范）
+VALID_STATUSES = {"pending", "analyzed", "published", "rejected"}
 
 # 受众枚举
 VALID_AUDIENCES = {"beginner", "intermediate", "advanced"}
 
-# ID 格式正则: {source}-{YYYYMMDD}-{NNN}
-ID_PATTERN = re.compile(r"^(?P<source>[^-]+)-(?P<date>\d{8})-(?P<seq>\d{3})$")
+# ID 格式正则: YYYYMMDD_{source}_{seq}
+ID_PATTERN = re.compile(r"^\d{8}_[^_]+_\d{3}$")
 
 # URL 格式正则
 URL_PATTERN = re.compile(r"^https?://.+")
 
 
 def validate_id_format(id_value: str) -> list[str]:
-    """校验 ID 格式是否符合 {source}-{YYYYMMDD}-{NNN}。
+    """校验 ID 格式是否符合 YYYYMMDD_{source}_{seq}。
 
     Args:
         id_value: 待校验的 ID 字符串。
@@ -47,7 +49,7 @@ def validate_id_format(id_value: str) -> list[str]:
     """
     errors: list[str] = []
     if not ID_PATTERN.match(id_value):
-        errors.append(f"ID 格式错误：'{id_value}'，应为 'source-YYYYMMDD-NNN' 格式")
+        errors.append(f"ID 格式错误：'{id_value}'，应为 'YYYYMMDD_source_seq' 格式")
     return errors
 
 
@@ -97,7 +99,7 @@ def validate_tags(tags: list) -> list[str]:
 
 
 def validate_optional_fields(data: dict[str, Any]) -> list[str]:
-    """校验可选字段。
+    """校验可选字段（在 content 对象中）。
 
     Args:
         data: 数据字典。
@@ -107,20 +109,23 @@ def validate_optional_fields(data: dict[str, Any]) -> list[str]:
     """
     errors: list[str] = []
 
-    if "score" in data:
-        score = data["score"]
-        if not isinstance(score, (int, float)):
-            errors.append(f"score 类型错误：应为数字，实际为 {type(score).__name__}")
-        elif not (1 <= score <= 10):
-            errors.append(f"score 范围错误：当前 {score}，应在 1-10 之间")
+    content = data.get("content", {})
+    if not isinstance(content, dict):
+        return errors
 
-    if "audience" in data:
-        audience = data["audience"]
-        if not isinstance(audience, str):
-            errors.append(f"audience 类型错误：应为字符串，实际为 {type(audience).__name__}")
-        elif audience not in VALID_AUDIENCES:
+    if "score" in content:
+        score = content["score"]
+        if not isinstance(score, (int, float)):
+            errors.append(f"content.score 类型错误：应为数字，实际为 {type(score).__name__}")
+        elif not (1 <= score <= 10):
+            errors.append(f"content.score 范围错误：当前 {score}，应在 1-10 之间")
+
+    if "difficulty" in content:
+        difficulty = content["difficulty"]
+        if difficulty not in VALID_AUDIENCES:
             errors.append(
-                f"audience 值错误：'{audience}'，应为 {', '.join(sorted(VALID_AUDIENCES))} 之一"
+                f"content.difficulty 值错误：'{difficulty}'，"
+                f"应为 {', '.join(sorted(VALID_AUDIENCES))} 之一"
             )
 
     return errors
@@ -172,10 +177,15 @@ def validate_entry(data: dict[str, Any], file_path: Path) -> list[str]:
     # 校验摘要长度
     errors.extend(validate_summary(data["summary"]))
 
-    # 校验标签数量
-    errors.extend(validate_tags(data["tags"]))
+    # 校验标签数量（检查 content.tech_tags）
+    content = data.get("content", {})
+    if isinstance(content, dict):
+        tags = content.get("tech_tags", [])
+    else:
+        tags = []
+    errors.extend(validate_tags(tags))
 
-    # 校验可选字段
+    # 校验可选字段（在 content 中）
     errors.extend(validate_optional_fields(data))
 
     return errors

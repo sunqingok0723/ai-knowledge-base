@@ -1,0 +1,22 @@
+{
+  "id": "20260515_rss_52451a7b",
+  "title": "Explore Wikipedia Like a Windows XP Desktop",
+  "source_url": "https://explorer.samismith.com/",
+  "source": "hacker_news",
+  "summary": "该项目将维基百科的浏览体验模拟为Windows XP桌面界面，通过复古的图形用户界面（GUI）重新包装维基百科内容，提供一种新颖的交互方式。用户可以在类似XP的桌面环境中搜索和浏览维基百科条目，结合怀旧设计与现代知识库，增强探索乐趣。",
+  "content": {
+    "key_points": [
+      "模拟Windows XP桌面风格，包括开始菜单、窗口和图标",
+      "集成维基百科搜索和内容浏览功能",
+      "提供怀旧用户体验，降低知识探索门槛"
+    ],
+    "tech_tags": [
+      "general"
+    ],
+    "difficulty": "beginner",
+    "rating": 7
+  },
+  "collected_at": "2026-05-15T13:37:12.313384+00:00",
+  "analyzed_at": "2026-05-15T13:38:17.487662+00:00",
+  "status": "published"
+}

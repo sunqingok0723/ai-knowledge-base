@@ -1,0 +1,22 @@
+{
+  "id": "20260515_rss_071d8f9e",
+  "title": "Gyroflow: Video stabilization using gyroscope data",
+  "source_url": "https://github.com/gyroflow/gyroflow",
+  "source": "hacker_news",
+  "summary": "Gyroflow 是一个开源视频稳定工具，利用陀螺仪数据（如相机内置或外部日志）进行后期处理，实现高精度防抖。支持多种相机格式，提供跨平台 GUI 和命令行界面，可自定义参数，适用于运动相机、无人机等场景。",
+  "content": {
+    "key_points": [
+      "基于陀螺仪元数据实现视频稳定，无需裁剪或降低画质",
+      "支持 GoPro、Sony、DJI 等主流相机及外部陀螺仪日志",
+      "提供图形界面和命令行工具，可调整稳定强度、视角等参数"
+    ],
+    "tech_tags": [
+      "general"
+    ],
+    "difficulty": "intermediate",
+    "rating": 8
+  },
+  "collected_at": "2026-05-15T13:37:12.313637+00:00",
+  "analyzed_at": "2026-05-15T13:39:02.913317+00:00",
+  "status": "published"
+}

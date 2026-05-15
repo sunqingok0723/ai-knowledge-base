@@ -1,0 +1,24 @@
+{
+  "id": "20260515_rss_b3c51fd2",
+  "title": "We're launching two specialized TPUs for the agentic era.",
+  "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next/",
+  "source": "ai_blog",
+  "summary": "谷歌宣布推出第八代TPU，包含两款专用芯片，旨在为即将到来的智能体（Agent）时代提供强大的AI算力支持。这标志着谷歌在AI基础设施上的重要升级，专注于满足未来更复杂、更自主的AI应用需求。",
+  "content": {
+    "key_points": [
+      "谷歌发布第八代TPU，包含两款专用芯片。",
+      "新芯片专为智能体（Agent）时代设计，强调算力支持。",
+      "此举旨在推动未来AI应用，特别是自主智能体的发展。"
+    ],
+    "tech_tags": [
+      "llm",
+      "agent",
+      "general"
+    ],
+    "difficulty": "beginner",
+    "rating": 7
+  },
+  "collected_at": "2026-05-15T13:37:12.518289+00:00",
+  "analyzed_at": "2026-05-15T13:40:08.815852+00:00",
+  "status": "published"
+}

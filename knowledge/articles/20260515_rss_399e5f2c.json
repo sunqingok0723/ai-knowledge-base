@@ -1,0 +1,24 @@
+{
+  "id": "20260515_rss_399e5f2c",
+  "title": "3 new ways Ads Advisor is making Google Ads safer and faster",
+  "source_url": "https://blog.google/products/ads-commerce/ads-advisor-google-ads/",
+  "source": "ai_blog",
+  "summary": "Google Ads Advisor 集成了三项新的智能体安全与策略功能，旨在让 Google Ads 账户管理更安全、更高效。这些功能利用 AI 和 Agent 技术，帮助广告主自动检测并规避政策风险，同时简化操作流程，提升广告投放的速度与合规性。",
+  "content": {
+    "key_points": [
+      "Ads Advisor 新增三项基于 Agent 的安全与策略功能。",
+      "新功能旨在保护 Google Ads 账户并简化广告管理流程。",
+      "利用 AI 技术提升广告投放的安全性和效率。"
+    ],
+    "tech_tags": [
+      "llm",
+      "agent",
+      "general"
+    ],
+    "difficulty": "beginner",
+    "rating": 7
+  },
+  "collected_at": "2026-05-15T13:37:12.518345+00:00",
+  "analyzed_at": "2026-05-15T13:40:11.452472+00:00",
+  "status": "published"
+}

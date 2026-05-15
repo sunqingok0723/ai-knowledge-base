@@ -1,0 +1,25 @@
+{
+  "id": "20260515_rss_5c27c977",
+  "title": "The old world of tech is dying and the new cannot be born",
+  "source_url": "https://www.baldurbjarnason.com/2026/the-old-world-of-tech-is-dying/",
+  "source": "hacker_news",
+  "summary": "文章指出传统科技行业正面临结构性衰退，而新兴AI/LLM技术尚未成熟到足以填补空白。作者认为当前科技领域处于转型阵痛期，旧有商业模式和产品范式逐渐失效，但新范式（如AI代理、LLM应用）仍存在可靠性、成本及伦理问题，无法立即成为主流。文章呼吁行业需耐心等待技术成熟，并警惕过度炒作。",
+  "content": {
+    "key_points": [
+      "传统科技行业（如SaaS、移动应用）增长放缓，旧模式正在消亡。",
+      "AI/LLM/Agent技术虽有潜力，但当前存在可靠性、成本和伦理挑战。",
+      "行业处于新旧交替的‘空窗期’，需避免盲目投资未成熟技术。",
+      "建议关注基础技术改进而非短期应用炒作。"
+    ],
+    "tech_tags": [
+      "llm",
+      "agent",
+      "general"
+    ],
+    "difficulty": "intermediate",
+    "rating": 8
+  },
+  "collected_at": "2026-05-15T13:37:12.313606+00:00",
+  "analyzed_at": "2026-05-15T13:38:57.776428+00:00",
+  "status": "published"
+}

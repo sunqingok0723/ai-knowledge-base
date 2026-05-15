@@ -32,7 +32,7 @@ VALID_STATUSES = {"pending", "analyzed", "published", "rejected"}
 VALID_AUDIENCES = {"beginner", "intermediate", "advanced"}
 
 # ID 格式正则: YYYYMMDD_{source}_{seq}
-ID_PATTERN = re.compile(r"^\d{8}_[^_]+_\d{3}$")
+ID_PATTERN = re.compile(r"^\d{8}_[^_]+_[A-Za-z0-9]{8}$")
 
 # URL 格式正则
 URL_PATTERN = re.compile(r"^https?://.+")

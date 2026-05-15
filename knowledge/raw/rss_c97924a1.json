@@ -1,8 +1,0 @@
-{
-  "id": "rss_c97924a1",
-  "source": "ai_blog",
-  "title": "Reduce friction and latency for long-running jobs with Webhooks in Gemini API",
-  "url": "https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/",
-  "description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/WebhooksGeminiAPI-hero.max-600x600.format-webp.webp\"&gt;Event-Driven Webhooks are a push-based notification system that eliminates the need for inefficient polling.",
-  "collected_at": "2026-05-14T07:16:17.582588+00:00"
-}

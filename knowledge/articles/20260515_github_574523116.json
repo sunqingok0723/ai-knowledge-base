@@ -1,0 +1,23 @@
+{
+  "id": "20260515_github_574523116",
+  "title": "prompts.chat",
+  "source_url": "https://github.com/f/prompts.chat",
+  "source": "github",
+  "summary": "该项目是一个开源社区驱动的提示词（Prompts）分享与发现平台，原名Awesome ChatGPT Prompts。用户可浏览、收集和贡献各类AI提示词，支持自托管部署以保障隐私，适用于ChatGPT等大语言模型的使用优化。",
+  "content": {
+    "key_points": [
+      "社区驱动的提示词共享与发现平台",
+      "支持自托管部署，保障组织隐私",
+      "原名Awesome ChatGPT Prompts，聚焦ChatGPT等LLM提示词"
+    ],
+    "tech_tags": [
+      "llm",
+      "general"
+    ],
+    "difficulty": "beginner",
+    "rating": 7
+  },
+  "collected_at": "2026-05-15T17:50:49.485677+00:00",
+  "analyzed_at": "2026-05-15T17:51:01.990109+00:00",
+  "status": "published"
+}

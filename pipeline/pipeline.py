@@ -241,13 +241,15 @@ def collect(sources: list[str], limit: int) -> list[RawItem]:
         rss_items = asyncio.run(collect_from_rss(RSS_SOURCES))
         items.extend(rss_items)
 
+    items = items[:limit]
+
     logger.info("采集完成: 共 %d 条", len(items))
     return items
 
 
 # ===== Step 2: 分析 =====
 
-def analyze_item(item: RawItem, provider, model: str = "deepseek-chat") -> Optional[dict]:
+def analyze_item(item: RawItem, provider, model: str) -> Optional[dict]:
     """调用 LLM 分析单条内容。
 
     Args:
@@ -299,17 +301,20 @@ def analyze_item(item: RawItem, provider, model: str = "deepseek-chat") -> Optio
         return None
 
 
-def analyze(items: list[RawItem], model: str = "deepseek-chat") -> list[Article]:
+def analyze(items: list[RawItem], model: Optional[str] = None, provider_name: Optional[str] = None) -> list[Article]:
     """分析主函数。
 
     Args:
         items: 原始条目列表
-        model: LLM 模型名称
+        model: LLM 模型名称，为 None 时使用提供商的默认模型
+        provider_name: 提供商类型，为 None 时使用环境变量默认值
 
     Returns:
         Article 列表
     """
-    provider = get_provider()
+    provider = get_provider(provider_name)
+    if model is None:
+        model = provider._config["default_model"]
     articles = []
 
     for item in items:
@@ -440,6 +445,7 @@ def run_pipeline(
     limit: int,
     dry_run: bool = False,
     output_base: Optional[Path] = None,
+    provider: Optional[str] = None,
 ) -> int:
     """运行完整流水线。
 
@@ -448,6 +454,7 @@ def run_pipeline(
         limit: 采集数量限制
         dry_run: 是否干跑模式
         output_base: 输出基础目录
+        provider: LLM 提供商类型，为 None 时使用环境变量默认值
 
     Returns:
         处理的文章数量
@@ -477,7 +484,7 @@ def run_pipeline(
     logger.info("Step 2: 分析 (%d 条)", len(raw_items))
     logger.info("=" * 50)
 
-    articles = analyze(raw_items)
+    articles = analyze(raw_items, provider_name=provider)
 
     # Step 3: 整理
     logger.info("=" * 50)
@@ -550,6 +557,13 @@ def main():
         default=None,
         help="输出目录 (默认: ../knowledge)",
     )
+    parser.add_argument(
+        "--provider",
+        type=str,
+        default=None,
+        choices=["deepseek", "qwen", "openai"],
+        help="LLM 提供商: deepseek, qwen, openai (默认: 环境变量 LLM_PROVIDER 或 deepseek)",
+    )
 
     args = parser.parse_args()
 
@@ -576,6 +590,7 @@ def main():
             limit=args.limit,
             dry_run=args.dry_run,
             output_base=args.output,
+            provider=args.provider,
         )
         return 0
     except Exception as e:

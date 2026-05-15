@@ -216,7 +216,7 @@ class OpenAICompatibleProvider(LLMProvider):
         },
         LLMProviderType.QWEN: {
             "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
-            "default_model": "qwen-turbo",
+            "default_model": "qwen3.6-max-preview",
             "env_key": "QWEN_API_KEY",
         },
         LLMProviderType.OPENAI: {
@@ -425,12 +425,12 @@ def estimate_cost(
     return 0.0
 
 
-def get_provider() -> LLMProvider:
-    """根据环境变量获取 LLM 提供商实例。
+def get_provider(provider_name: Optional[str] = None) -> LLMProvider:
+    """获取 LLM 提供商实例。
 
-    环境变量:
-        LLM_PROVIDER: 提供商类型 (deepseek/qwen/openai)，默认 deepseek
-        {PROVIDER}_API_KEY: 对应的 API 密钥
+    Args:
+        provider_name: 提供商类型 (deepseek/qwen/openai)，为 None 时从环境变量
+            LLM_PROVIDER 读取，默认 deepseek
 
     Returns:
         LLMProvider 实例
@@ -438,7 +438,9 @@ def get_provider() -> LLMProvider:
     Raises:
         ValueError: 提供商类型无效或 API 密钥未配置时
     """
-    provider_name = os.getenv("LLM_PROVIDER", "deepseek").lower()
+    if provider_name is None:
+        provider_name = os.getenv("LLM_PROVIDER", "deepseek")
+    provider_name = provider_name.lower()
 
     try:
         provider_type = LLMProviderType(provider_name)

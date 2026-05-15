@@ -1,0 +1,204 @@
+# RSS 数据源配置文件
+# 用于知识库自动化采集流水线
+
+sources:
+  # ===== 综合技术 =====
+  - name: "Hacker News"
+    url: "https://news.ycombinator.com/rss"
+    category: "general_tech"
+    enabled: true
+    description: "硅谷技术社区热点，包含大量 AI/ML 相关讨论"
+
+  - name: "Lobsters"
+    url: "https://lobste.rs/rss"
+    category: "general_tech"
+    enabled: true
+    description: "技术社区，需过滤 AI/ML 标签"
+
+  - name: "Reddit r/MachineLearning"
+    url: "https://www.reddit.com/r/MachineLearning/.rss"
+    category: "general_tech"
+    enabled: false
+    description: "ML 研究社区，量较大"
+
+  # ===== AI 研究 =====
+  - name: "arXiv cs.AI"
+    url: "https://rss.arxiv.org/rss/cs.AI"
+    category: "ai_research"
+    enabled: true
+    description: "AI 领域最新论文"
+
+  - name: "arXiv cs.LG"
+    url: "https://rss.arxiv.org/rss/cs.LG"
+    category: "ai_research"
+    enabled: true
+    description: "机器学习（Machine Learning）论文"
+
+  - name: "arXiv cs.CL"
+    url: "https://rss.arxiv.org/rss/cs.CL"
+    category: "ai_research"
+    enabled: false
+    description: "计算语言学（NLP）论文，量较大"
+
+  # ===== 公司博客 =====
+  - name: "OpenAI Blog"
+    url: "https://openai.com/blog/rss.xml"
+    category: "company_blog"
+    enabled: true
+    description: "OpenAI 官方博客"
+
+  - name: "Anthropic Research"
+    url: "https://www.anthropic.com/index/rss"
+    category: "company_blog"
+    enabled: true
+    description: "Anthropic 研究动态"
+
+  - name: "Google AI Blog"
+    url: "https://blog.google/technology/ai/rss/"
+    category: "company_blog"
+    enabled: true
+    description: "Google AI 技术博客"
+
+  - name: "Hugging Face Blog"
+    url: "https://huggingface.co/blog/feed.xml"
+    category: "company_blog"
+    enabled: true
+    description: "Hugging Face 开源社区动态"
+
+  - name: "DeepMind Blog"
+    url: "https://deepmind.google/discover/blog/rss.xml"
+    category: "company_blog"
+    enabled: true
+    description: "DeepMind 研究博客"
+
+  - name: "Microsoft Research"
+    url: "https://www.microsoft.com/en-us/research/blog/feed/"
+    category: "company_blog"
+    enabled: false
+    description: "微软研究院博客"
+
+  - name: "Meta AI Blog"
+    url: "https://ai.meta.com/blog/rss/"
+    category: "company_blog"
+    enabled: true
+    description: "Meta AI 研究动态"
+
+  - name: "NVIDIA Blog"
+    url: "https://blogs.nvidia.com/feed/"
+    category: "company_blog"
+    enabled: false
+    description: "NVIDIA 技术博客，含 GPU/AI 内容"
+
+  # ===== 开发工具 =====
+  - name: "LangChain Blog"
+    url: "https://blog.langchain.dev/rss/"
+    category: "dev_tools"
+    enabled: true
+    description: "LangChain 框架更新"
+
+  - name: "LlamaIndex Blog"
+    url: "https://blog.llamaindex.ai/feed"
+    category: "dev_tools"
+    enabled: true
+    description: "LlamaIndex 框架更新"
+
+  - name: "FlowiseAI Blog"
+    url: "https://blog.flowise.ai/rss.xml"
+    category: "dev_tools"
+    enabled: false
+    description: "Flowise AI 低代码平台"
+
+  # ===== 中文社区 =====
+  # 注意：以下中文源需要确认 RSS 可用性，默认禁用
+  - name: "机器之心"
+    url: "https://www.jiqizhixin.com/rss"
+    category: "chinese_community"
+    enabled: false
+    description: "中文 AI 媒体，需确认 RSS 订阅"
+
+  - name: "量子位"
+    url: "https://www.qbitai.com/feed"
+    category: "chinese_community"
+    enabled: false
+    description: "中文 AI 科技媒体，需确认 RSS 订阅"
+
+  - name: "新智元"
+    url: "https://www.ai-era.net/rss"
+    category: "chinese_community"
+    enabled: false
+    description: "中文 AI 媒体，需确认 RSS URL"
+
+  - name: "大数据文摘"
+    url: "http://www.bigdataera.cn/rss"
+    category: "chinese_community"
+    enabled: false
+    description: "大数据与 AI 技术文摘"
+
+# 分类定义
+categories:
+  - id: "general_tech"
+    name: "综合技术"
+    description: "综合性技术社区，包含 AI 相关内容"
+  - id: "ai_research"
+    name: "AI 研究"
+    description: "学术研究论文和前沿技术"
+  - id: "company_blog"
+    name: "公司博客"
+    description: "科技公司官方博客和研究动态"
+  - id: "dev_tools"
+    name: "开发工具"
+    description: "AI 开发框架和工具"
+  - id: "chinese_community"
+    name: "中文社区"
+    description: "中文 AI 社区和媒体"
+
+# 采集配置
+collection:
+  # 默认每次从每个源采集的文章数量
+  default_limit: 30
+
+  # 某些源的特定限制
+  source_limits:
+    "arXiv cs.AI": 50
+    "Hacker News": 30
+    "Reddit r/MachineLearning": 100
+
+  # 采集间隔（秒），避免过于频繁请求
+  min_interval: 300  # 5 分钟
+
+  # 请求超时（秒）
+  timeout: 30
+
+  # 重试配置
+  retry:
+    max_attempts: 3
+    backoff_factor: 2
+
+# 过滤规则
+filters:
+  # 关键词过滤（只采集包含这些关键词的文章）
+  include_keywords:
+    - "AI"
+    - "artificial intelligence"
+    - "machine learning"
+    - "deep learning"
+    - "neural network"
+    - "LLM"
+    - "GPT"
+    - "transformer"
+    - "agent"
+    - "LangChain"
+    - "RAG"
+
+  # 排除关键词（包含这些关键词的文章不采集）
+  exclude_keywords:
+    - "advertisement"
+    - "sponsored"
+    - "招聘"
+    - "求职"
+
+  # 最小内容长度（字符数）
+  min_content_length: 100
+
+  # 最大内容长度（字符数）
+  max_content_length: 10000

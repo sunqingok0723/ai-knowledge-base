@@ -1,0 +1,11 @@
+# AI Knowledge Base - Python Dependencies
+
+# HTTP client for LLM API calls
+httpx>=0.27.0
+
+# Agent orchestration
+langgraph>=0.2.0
+
+# (Optional) For web scraping
+# beautifulsoup4>=4.12.0
+# lxml>=5.0.0

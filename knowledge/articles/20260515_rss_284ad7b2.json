@@ -1,0 +1,22 @@
+{
+  "id": "20260515_rss_284ad7b2",
+  "title": "Tesla Wall Connector bootloader bypasses the firmware downgrade ratchet",
+  "source_url": "https://www.synacktiv.com/en/publications/exploiting-the-tesla-wall-connector-from-its-charge-port-connector-part-2-bypassing",
+  "source": "hacker_news",
+  "summary": "本文是特斯拉壁挂式充电器安全研究系列的第二部分，重点分析了其引导加载程序如何绕过固件降级保护机制。研究发现，通过利用引导加载程序中的漏洞，攻击者可以绕过固件的版本检查（ratchet机制），从而安装旧版本固件。这可能导致设备被降级至存在已知漏洞的固件版本，进而被远程或物理方式利用。文章详细描述了漏洞的技术细节和利用方法。",
+  "content": {
+    "key_points": [
+      "特斯拉壁挂式充电器的引导加载程序存在漏洞，可绕过固件降级保护（ratchet机制）。",
+      "攻击者利用该漏洞可安装旧版本固件，从而利用已知漏洞。",
+      "研究展示了从充电端口连接器进行物理访问的利用路径。"
+    ],
+    "tech_tags": [
+      "general"
+    ],
+    "difficulty": "advanced",
+    "rating": 8
+  },
+  "collected_at": "2026-05-15T13:37:12.313777+00:00",
+  "analyzed_at": "2026-05-15T13:39:29.133930+00:00",
+  "status": "published"
+}

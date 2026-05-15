@@ -1,0 +1,26 @@
+{
+  "id": "20260515_github_1136590548",
+  "title": "everything-claude-code",
+  "source_url": "https://github.com/affaan-m/everything-claude-code",
+  "source": "github",
+  "summary": "一个针对 Claude Code、Codex、Opencode、Cursor 等 AI 编码代理的性能优化系统。该项目专注于代理的“装备”（技能、本能、记忆、安全）和以研究为先的开发方法，旨在提升 AI 编码代理在复杂任务中的执行效率与可靠性。",
+  "content": {
+    "key_points": [
+      "提供一套完整的代理性能优化系统（Agent Harness）。",
+      "核心优化维度包括：技能（Skills）、本能（Instincts）、记忆（Memory）和安全（Security）。",
+      "支持多个主流 AI 编码代理平台：Claude Code、Codex、Opencode、Cursor。",
+      "强调“研究优先”（Research-first）的开发理念，注重可扩展性与深度优化。"
+    ],
+    "tech_tags": [
+      "agent",
+      "llm",
+      "performance-optimization",
+      "code-generation"
+    ],
+    "difficulty": "intermediate",
+    "rating": 8
+  },
+  "collected_at": "2026-05-15T13:37:12.050421+00:00",
+  "analyzed_at": "2026-05-15T13:37:21.405783+00:00",
+  "status": "published"
+}

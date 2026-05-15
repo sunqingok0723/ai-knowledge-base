@@ -1,0 +1,23 @@
+{
+  "id": "20260515_rss_96e3aa14",
+  "title": "Here’s how our TPUs power increasingly demanding AI workloads.",
+  "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/what-is-a-tpu/",
+  "source": "ai_blog",
+  "summary": "本文介绍谷歌TPU如何支撑日益增长的AI工作负载需求。TPU是专为机器学习设计的定制加速器，能高效处理大规模训练和推理任务。文章通过视频形式展示了TPU在性能、能效和可扩展性方面的优势，以及如何帮助企业和开发者应对复杂AI模型的挑战。",
+  "content": {
+    "key_points": [
+      "TPU是谷歌专为AI/ML工作负载设计的定制化加速器",
+      "TPU能高效处理大规模训练和推理任务",
+      "TPU在性能、能效和可扩展性方面具有显著优势",
+      "TPU帮助企业和开发者应对日益复杂的AI模型挑战"
+    ],
+    "tech_tags": [
+      "general"
+    ],
+    "difficulty": "beginner",
+    "rating": 6
+  },
+  "collected_at": "2026-05-15T13:37:12.518189+00:00",
+  "analyzed_at": "2026-05-15T13:40:04.091794+00:00",
+  "status": "published"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "20260515_rss_8b606073",
+  "title": "O(x)Caml in Space",
+  "source_url": "https://gazagnaire.org/blog/2026-05-14-borealis.html",
+  "source": "hacker_news",
+  "summary": "本文介绍了Borealis项目，一个基于O(x)Caml语言构建的、用于太空任务（如卫星）的嵌入式实时系统框架。它利用OCaml的类型安全和函数式特性，结合了形式化验证和高效编译，旨在提供比传统C/C++方案更可靠、更易于维护的航天软件解决方案。文章详细阐述了其设计理念、架构以及与现有航天软件生态的集成方式。",
+  "content": {
+    "key_points": [
+      "Borealis是一个用OCaml编写的太空嵌入式系统框架，强调安全性和可靠性。",
+      "利用OCaml的强类型和函数式编程特性，减少运行时错误，并支持形式化验证。",
+      "项目旨在替代或补充航天领域中常用的C/C++方案，降低软件缺陷风险。",
+      "提供了与现有硬件和实时操作系统（RTOS）的接口，具备实际部署潜力。"
+    ],
+    "tech_tags": [
+      "general"
+    ],
+    "difficulty": "intermediate",
+    "rating": 7
+  },
+  "collected_at": "2026-05-15T13:37:12.313329+00:00",
+  "analyzed_at": "2026-05-15T13:38:12.151986+00:00",
+  "status": "published"
+}

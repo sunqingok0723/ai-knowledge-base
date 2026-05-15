@@ -1,0 +1,23 @@
+{
+  "id": "20260515_rss_86f891e7",
+  "title": "Too dangerous or just too expensive? The real reason Anthropic is hiding Mythos",
+  "source_url": "https://kingy.ai/ai/too-dangerous-to-release-or-just-too-expensive-the-real-reason-anthropic-is-hiding-its-most-powerful-ai/",
+  "source": "hacker_news",
+  "summary": "文章质疑Anthropic隐藏其最强AI模型“Mythos”的真实原因。作者认为，除了官方声称的“安全性”考虑外，高昂的推理成本和潜在的经济风险（如颠覆现有商业模式）可能是更现实的考量。文章探讨了AI公司平衡技术前沿、安全责任与商业利益之间的复杂博弈。",
+  "content": {
+    "key_points": [
+      "Anthropic未发布其最强AI模型Mythos，官方理由为安全风险。",
+      "文章提出替代解释：模型运行成本过高，可能无法实现商业盈利。",
+      "另一个潜在原因是该模型可能颠覆现有商业模式，带来经济风险。",
+      "反映了AI公司在技术、安全与商业利益之间的权衡困境。"
+    ],
+    "tech_tags": [
+      "general"
+    ],
+    "difficulty": "intermediate",
+    "rating": 7
+  },
+  "collected_at": "2026-05-15T13:37:12.313684+00:00",
+  "analyzed_at": "2026-05-15T13:39:11.029413+00:00",
+  "status": "published"
+}

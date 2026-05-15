@@ -1,0 +1,23 @@
+{
+  "id": "20260515_rss_fd7f7e9f",
+  "title": "Bitwarden scrubs &#x27;Always free&#x27; and &#x27;Inclusion&#x27; values from its site",
+  "source_url": "https://www.fastcompany.com/91542655/bitwarden-scrubs-always-free-and-inclusion-values-from-its-website-as-longtime-execs-step-down",
+  "source": "hacker_news",
+  "summary": "密码管理公司Bitwarden从其官网移除了“永远免费”和“包容性”等核心价值观表述，同时多位长期高管离职。此举可能暗示公司战略转向更注重盈利，引发用户对免费服务可持续性的担忧。",
+  "content": {
+    "key_points": [
+      "Bitwarden官网删除了“永远免费”和“包容性”等价值观承诺",
+      "多位长期高管（包括联合创始人）已离职",
+      "公司可能正在从开源/免费优先转向更商业化的模式",
+      "用户担忧免费版服务未来可能受限或收费"
+    ],
+    "tech_tags": [
+      "general"
+    ],
+    "difficulty": "beginner",
+    "rating": 7
+  },
+  "collected_at": "2026-05-15T13:37:12.313574+00:00",
+  "analyzed_at": "2026-05-15T13:38:51.298433+00:00",
+  "status": "published"
+}

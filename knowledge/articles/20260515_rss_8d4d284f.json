@@ -1,0 +1,23 @@
+{
+  "id": "20260515_rss_8d4d284f",
+  "title": "Claude for Legal",
+  "source_url": "https://github.com/anthropics/claude-for-legal",
+  "source": "hacker_news",
+  "summary": "Anthropics 推出的开源项目，旨在将 Claude AI 助手应用于法律领域。该项目提供了一套工具和模板，帮助法律专业人士利用 Claude 进行合同分析、法律研究、文档审查等任务，提升法律工作的效率和准确性。",
+  "content": {
+    "key_points": [
+      "专注于法律领域的 AI 应用，提供合同分析、法律研究等工具",
+      "开源项目，便于法律专业人士定制和集成",
+      "利用 Claude 的对话和推理能力处理法律文档"
+    ],
+    "tech_tags": [
+      "llm",
+      "general"
+    ],
+    "difficulty": "intermediate",
+    "rating": 8
+  },
+  "collected_at": "2026-05-15T13:37:12.313745+00:00",
+  "analyzed_at": "2026-05-15T13:39:23.196348+00:00",
+  "status": "published"
+}

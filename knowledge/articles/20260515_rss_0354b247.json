@@ -1,0 +1,22 @@
+{
+  "id": "20260515_rss_0354b247",
+  "title": "Removing the modem and GPS from my 2024 RAV4 hybrid",
+  "source_url": "https://arkadiyt.com/2026/05/13/removing-the-modem-and-gps-from-my-rav4/",
+  "source": "hacker_news",
+  "summary": "文章作者详细记录了如何从2024款丰田RAV4混合动力汽车中物理移除内置的调制解调器和GPS模块，以消除车辆的数据收集和远程监控功能。作者提供了拆卸步骤、所需工具、模块位置以及移除后对车辆功能的影响评估，包括可能失去远程启动、紧急呼叫和导航服务。",
+  "content": {
+    "key_points": [
+      "作者出于隐私考虑，决定移除RAV4中的蜂窝调制解调器和GPS模块。",
+      "拆卸过程涉及移除内饰面板、断开天线和电源连接，并取出集成模块。",
+      "移除后，车辆仍可正常驾驶，但会失去远程信息处理、紧急呼叫和GPS导航功能。"
+    ],
+    "tech_tags": [
+      "general"
+    ],
+    "difficulty": "intermediate",
+    "rating": 7
+  },
+  "collected_at": "2026-05-15T13:37:12.313436+00:00",
+  "analyzed_at": "2026-05-15T13:38:28.037786+00:00",
+  "status": "published"
+}

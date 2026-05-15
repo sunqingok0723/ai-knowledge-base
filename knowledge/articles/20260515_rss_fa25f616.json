@@ -1,0 +1,24 @@
+{
+  "id": "20260515_rss_fa25f616",
+  "title": "New ways to balance cost and reliability in the Gemini API",
+  "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference/",
+  "source": "ai_blog",
+  "summary": "Google 在 Gemini API 中引入了两种新的推理层级：Flex 和 Priority，旨在帮助开发者在成本与可靠性之间取得平衡。Flex 层级提供较低成本但可能具有更高延迟，适合非关键任务；Priority 层级则保证更低延迟和更高可靠性，适用于对响应时间敏感的应用。此举为开发者提供了更灵活的选择，以优化不同场景下的 API 调用成本与性能。",
+  "content": {
+    "key_points": [
+      "Google 为 Gemini API 新增了 Flex 和 Priority 两种推理层级。",
+      "Flex 层级注重成本效益，可能牺牲部分延迟和可靠性。",
+      "Priority 层级优先保证低延迟和高可靠性，适合关键任务。",
+      "该功能旨在帮助开发者根据应用场景灵活平衡成本与性能。"
+    ],
+    "tech_tags": [
+      "llm",
+      "general"
+    ],
+    "difficulty": "beginner",
+    "rating": 7
+  },
+  "collected_at": "2026-05-15T13:37:12.518730+00:00",
+  "analyzed_at": "2026-05-15T13:40:29.663199+00:00",
+  "status": "published"
+}

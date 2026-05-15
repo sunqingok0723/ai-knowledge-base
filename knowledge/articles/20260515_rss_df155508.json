@@ -1,0 +1,22 @@
+{
+  "id": "20260515_rss_df155508",
+  "title": "UK government replaces Palantir software with internally-built refugee system",
+  "source_url": "https://www.bbc.com/news/articles/c2l2j1lxdk5o",
+  "source": "hacker_news",
+  "summary": "英国政府决定用内部开发的难民管理系统取代 Palantir 的软件，旨在提升数据主权、降低成本并增强系统灵活性。新系统将用于处理难民申请、身份验证和资源分配，减少对外部供应商的依赖。此举反映了政府数字化转型中对自主可控技术的偏好。",
+  "content": {
+    "key_points": [
+      "英国政府用自建系统替代 Palantir 的难民管理软件",
+      "新系统旨在降低对外部供应商的依赖并节省成本",
+      "系统功能包括难民申请处理、身份验证和资源分配"
+    ],
+    "tech_tags": [
+      "general"
+    ],
+    "difficulty": "beginner",
+    "rating": 7
+  },
+  "collected_at": "2026-05-15T13:37:12.313458+00:00",
+  "analyzed_at": "2026-05-15T13:38:30.579215+00:00",
+  "status": "published"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "20260515_rss_dd09062b",
+  "title": "A new way to explore the web with AI Mode in Chrome",
+  "source_url": "https://blog.google/products-and-platforms/products/search/ai-mode-chrome/",
+  "source": "ai_blog",
+  "summary": "谷歌Chrome浏览器推出AI模式升级，通过集成AI技术改变用户与网页的交互方式。该功能可能利用大语言模型（LLM）和智能代理（Agent）技术，提供更智能的搜索、内容理解和任务执行能力，旨在提升浏览体验和效率。",
+  "content": {
+    "key_points": [
+      "Chrome浏览器新增AI模式，重塑网页交互方式",
+      "可能集成LLM和Agent技术，实现智能搜索与任务自动化",
+      "升级旨在提升用户浏览效率和内容理解深度"
+    ],
+    "tech_tags": [
+      "llm",
+      "agent",
+      "general"
+    ],
+    "difficulty": "beginner",
+    "rating": 7
+  },
+  "collected_at": "2026-05-15T13:37:12.518452+00:00",
+  "analyzed_at": "2026-05-15T13:40:16.353542+00:00",
+  "status": "published"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "20260515_rss_a8703820",
+  "title": "Show HN: GlycemicGPT – Open-source AI-powered diabetes management",
+  "source_url": "https://github.com/GlycemicGPT/GlycemicGPT",
+  "source": "hacker_news",
+  "summary": "GlycemicGPT 是一个开源的 AI 驱动糖尿病管理工具，利用大语言模型（LLM）和检索增强生成（RAG）技术，为用户提供个性化的血糖监测、饮食建议和健康分析。该项目旨在通过智能助手帮助糖尿病患者更好地管理病情，代码和模型完全开源，支持社区贡献。",
+  "content": {
+    "key_points": [
+      "基于 LLM 和 RAG 技术实现个性化糖尿病管理",
+      "开源项目，代码和模型在 GitHub 上公开",
+      "提供血糖监测、饮食建议和健康分析功能"
+    ],
+    "tech_tags": [
+      "llm",
+      "rag",
+      "agent"
+    ],
+    "difficulty": "intermediate",
+    "rating": 8
+  },
+  "collected_at": "2026-05-15T13:37:12.313731+00:00",
+  "analyzed_at": "2026-05-15T13:39:20.557604+00:00",
+  "status": "published"
+}

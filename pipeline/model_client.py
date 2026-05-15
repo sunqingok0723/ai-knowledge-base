@@ -73,6 +73,101 @@ class LLMResponse:
     provider: LLMProviderType
 
 
+class CostTracker:
+    """LLM 调用成本追踪器。
+
+    追踪每次 API 调用的 token 消耗和估算成本（人民币）。
+    """
+
+    # 国产模型价格表（元/百万 tokens）
+    CNY_PRICING: ClassVar[dict[LLMProviderType, tuple[float, float]]] = {
+        LLMProviderType.DEEPSEEK: (1, 2),
+        LLMProviderType.QWEN: (4, 12),
+        LLMProviderType.OPENAI: (150, 600),
+    }
+
+    def __init__(self) -> None:
+        """初始化成本追踪器。"""
+        self._records: dict[LLMProviderType, list[dict[str, Any]]] = {
+            p: [] for p in LLMProviderType
+        }
+
+    def record(
+        self,
+        usage: Usage,
+        provider: LLMProviderType,
+        model: str = "",
+    ) -> None:
+        """记录一次 API 调用。
+
+        Args:
+            usage: Token 使用量统计
+            provider: 提供商类型
+            model: 模型名称
+        """
+        self._records[provider].append({
+            "prompt_tokens": usage.prompt_tokens,
+            "completion_tokens": usage.completion_tokens,
+            "total_tokens": usage.total_tokens,
+            "model": model,
+        })
+
+    def estimated_cost(self, provider: LLMProviderType) -> float:
+        """返回指定提供商的累计估算成本（元）。
+
+        Args:
+            provider: 提供商类型
+
+        Returns:
+            累计估算成本（元）
+        """
+        total = 0.0
+        input_price, output_price = self.CNY_PRICING.get(provider, (0, 0))
+        for record in self._records.get(provider, []):
+            total += (record["prompt_tokens"] / 1_000_000) * input_price
+            total += (record["completion_tokens"] / 1_000_000) * output_price
+        return total
+
+    def report(self, provider: Optional[LLMProviderType] = None) -> None:
+        """打印成本报告。
+
+        Args:
+            provider: 提供商类型，为 None 时报告所有提供商。
+        """
+        providers = [provider] if provider else list(LLMProviderType)
+
+        logger.info("=" * 50)
+        logger.info("LLM 调用成本报告")
+        logger.info("=" * 50)
+
+        total_all = 0.0
+        total_calls = 0
+        for p in providers:
+            records = self._records.get(p, [])
+            if not records:
+                continue
+
+            total_tokens = sum(r["total_tokens"] for r in records)
+            cost = self.estimated_cost(p)
+            total_all += cost
+            total_calls += len(records)
+
+            logger.info(
+                "提供商: %s | 调用次数: %d | 总 tokens: %d | 估算成本: ¥%.4f",
+                p.value,
+                len(records),
+                total_tokens,
+                cost,
+            )
+
+        logger.info("总调用次数: %d | 总成本: ¥%.4f", total_calls, total_all)
+        logger.info("=" * 50)
+
+
+# 全局成本追踪器实例
+cost_tracker = CostTracker()
+
+
 class LLMProvider(ABC):
     """LLM 提供商抽象基类。"""
 
@@ -218,7 +313,9 @@ class OpenAICompatibleProvider(LLMProvider):
             response.raise_for_status()
             data = response.json()
 
-        return self._parse_response(data, model)
+        response = self._parse_response(data, model)
+        cost_tracker.record(response.usage, self._provider_type, model)
+        return response
 
     def _parse_response(self, data: dict[str, Any], model: str) -> LLMResponse:
         """解析 API 响应。

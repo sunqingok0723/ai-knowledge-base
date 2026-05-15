@@ -15,7 +15,7 @@ from typing import Optional
 
 import httpx
 
-from model_client import chat_with_retry, get_provider, LLMResponse
+from model_client import chat_with_retry, cost_tracker, get_provider, LLMResponse
 
 logger = logging.getLogger(__name__)
 
@@ -499,6 +499,8 @@ def run_pipeline(
     logger.info("=" * 50)
     logger.info("流水线完成: 共处理 %d 篇文章", len(articles))
     logger.info("=" * 50)
+
+    cost_tracker.report()
 
     return len(articles)
 

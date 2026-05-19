@@ -1,0 +1,26 @@
+{
+  "id": "20260519_github_943398999",
+  "title": "system-prompts-and-models-of-ai-tools",
+  "source_url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+  "source": "github",
+  "summary": "该GitHub仓库收集了多种AI工具的系统提示词、内部工具及AI模型信息，涵盖Augment Code、Claude Code、Cursor、Devin AI、Perplexity等数十个主流AI编程助手和通用AI平台。内容聚焦于揭示这些工具背后的系统级设计、提示词工程和模型架构，为开发者提供逆向工程和参考学习的资源。",
+  "content": {
+    "key_points": [
+      "汇总了超过20种AI工具的系统提示词和内部配置",
+      "覆盖AI编程助手（如Cursor、Claude Code）和通用AI平台（如Perplexity、NotionAI）",
+      "包含开源和闭源工具的模型信息与架构细节",
+      "为开发者提供提示词工程和AI工具设计的参考"
+    ],
+    "tech_tags": [
+      "llm",
+      "agent",
+      "system-prompt",
+      "ai-tools"
+    ],
+    "difficulty": "intermediate",
+    "rating": 8
+  },
+  "collected_at": "2026-05-19T10:51:55.159332+00:00",
+  "analyzed_at": "2026-05-19T10:52:28.961371+00:00",
+  "status": "published"
+}

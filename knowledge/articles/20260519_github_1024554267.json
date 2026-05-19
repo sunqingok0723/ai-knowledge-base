@@ -1,0 +1,24 @@
+{
+  "id": "20260519_github_1024554267",
+  "title": "hermes-agent",
+  "source_url": "https://github.com/NousResearch/hermes-agent",
+  "source": "github",
+  "summary": "Hermes Agent 是一个由 Nous Research 开发的、可随用户共同成长的 AI 智能体框架。该项目旨在提供高度可定制和可扩展的智能体解决方案，支持用户根据自身需求逐步构建和优化智能体能力。其核心理念是“与您一同成长的智能体”，强调从基础功能到复杂任务的渐进式学习与适应。",
+  "content": {
+    "key_points": [
+      "由知名 AI 研究机构 Nous Research 开发，具备社区信任度",
+      "强调智能体的可成长性，支持用户从简单到复杂逐步构建功能",
+      "提供高度可定制的智能体框架，适应不同应用场景"
+    ],
+    "tech_tags": [
+      "agent",
+      "llm",
+      "framework"
+    ],
+    "difficulty": "intermediate",
+    "rating": 7
+  },
+  "collected_at": "2026-05-19T10:51:55.159323+00:00",
+  "analyzed_at": "2026-05-19T10:52:18.020924+00:00",
+  "status": "published"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "20260531_github_658928958",
+  "title": "ollama",
+  "source_url": "https://github.com/ollama/ollama",
+  "source": "github",
+  "summary": "Ollama 是一个开源工具，旨在让用户能够轻松地在本地运行和管理各种大型语言模型（LLM），如 Kimi-K2.5、GLM-5、DeepSeek、Qwen 等。它简化了模型的下载、安装和推理过程，支持通过命令行或 API 进行交互，适合个人开发者、研究人员和爱好者快速体验和部署 AI 模型。",
+  "content": {
+    "key_points": [
+      "支持多种主流开源 LLM 模型，如 DeepSeek、Qwen、Gemma 等。",
+      "提供简洁的命令行界面和 REST API，便于本地部署和集成。",
+      "降低本地运行大模型的门槛，无需复杂配置即可快速启动。"
+    ],
+    "tech_tags": [
+      "llm",
+      "general"
+    ],
+    "difficulty": "beginner",
+    "rating": 9
+  },
+  "collected_at": "2026-05-31T10:05:29.177441+00:00",
+  "analyzed_at": "2026-05-31T10:05:41.389672+00:00",
+  "status": "published"
+}

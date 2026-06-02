@@ -1,0 +1,25 @@
+{
+  "id": "20260602_github_701547123",
+  "title": "open-webui",
+  "source_url": "https://github.com/open-webui/open-webui",
+  "source": "github",
+  "summary": "Open WebUI 是一个用户友好的 AI 交互界面，支持与 Ollama、OpenAI API 等多种后端模型服务集成。它提供了聊天、文件上传、RAG（检索增强生成）等功能，旨在简化 AI 模型的使用和部署，适合个人及团队快速搭建私有或公共的 AI 助手平台。",
+  "content": {
+    "key_points": [
+      "提供直观的 Web 界面，支持多种 AI 模型后端（如 Ollama、OpenAI）。",
+      "内置 RAG 功能，允许用户上传文档并与模型进行基于上下文的对话。",
+      "支持多用户、权限管理及对话历史记录，适合团队协作。",
+      "易于自托管部署，强调隐私和本地化控制。"
+    ],
+    "tech_tags": [
+      "llm",
+      "rag",
+      "general"
+    ],
+    "difficulty": "beginner",
+    "rating": 9
+  },
+  "collected_at": "2026-06-02T11:55:50.176284+00:00",
+  "analyzed_at": "2026-06-02T11:56:19.887453+00:00",
+  "status": "published"
+}

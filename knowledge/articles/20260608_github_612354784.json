@@ -1,0 +1,26 @@
+{
+  "id": "20260608_github_612354784",
+  "title": "llama.cpp",
+  "source_url": "https://github.com/ggml-org/llama.cpp",
+  "source": "github",
+  "summary": "llama.cpp 是一个用 C/C++ 实现的高性能 LLM 推理引擎，专注于在本地设备上高效运行大型语言模型。它支持多种量化技术以降低内存占用，兼容 CPU 和 GPU 推理，并提供了轻量级、跨平台的部署方案，适用于资源受限环境。该项目开源且社区活跃，是边缘计算和隐私保护场景下的重要工具。",
+  "content": {
+    "key_points": [
+      "纯 C/C++ 实现，无外部依赖，性能优化出色",
+      "支持模型量化（如 4-bit、8-bit），显著降低内存需求",
+      "可在 CPU、GPU 及混合模式下运行，适配多种硬件",
+      "提供轻量级推理能力，适合本地部署和隐私敏感场景",
+      "开源社区活跃，持续集成新模型和优化技术"
+    ],
+    "tech_tags": [
+      "llm",
+      "inference",
+      "quantization"
+    ],
+    "difficulty": "intermediate",
+    "rating": 9
+  },
+  "collected_at": "2026-06-08T12:18:47.784485+00:00",
+  "analyzed_at": "2026-06-08T12:19:41.904933+00:00",
+  "status": "published"
+}

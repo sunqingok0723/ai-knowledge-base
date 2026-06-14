@@ -1,0 +1,25 @@
+{
+  "id": "20260614_github_1197021090",
+  "title": "claw-code",
+  "source_url": "https://github.com/ultraworkers/claw-code",
+  "source": "github",
+  "summary": "claw-code 是一个完全由 AI 智能体自主管理和维护的博物馆展品项目，使用 Rust 语言结合 Gajae-Code / LazyCodex 构建。该项目最突出的特点是实现了零人工干预的开发与运维流程，是 AI Agent 在自动化软件开发领域的极端实践案例。",
+  "content": {
+    "key_points": [
+      "项目由 AI Agent 全权管理，无需任何人类干预",
+      "使用 Rust 语言开发，结合 Gajae-Code / LazyCodex 框架",
+      "定位为博物馆展品，具有实验性和展示性",
+      "展示了 AI 在软件全生命周期（开发、维护）中的自主能力"
+    ],
+    "tech_tags": [
+      "agent",
+      "llm",
+      "rust"
+    ],
+    "difficulty": "advanced",
+    "rating": 8
+  },
+  "collected_at": "2026-06-14T10:42:03.857589+00:00",
+  "analyzed_at": "2026-06-14T10:42:13.382570+00:00",
+  "status": "published"
+}

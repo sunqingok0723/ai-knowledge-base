@@ -1,0 +1,24 @@
+{
+  "id": "20260615_github_975734319",
+  "title": "opencode",
+  "source_url": "https://github.com/anomalyco/opencode",
+  "source": "github",
+  "summary": "opencode 是一个开源的编码代理（coding agent），旨在通过 AI 技术辅助开发者进行代码编写、调试和项目管理。它可能集成了大语言模型（LLM）能力，支持自动化任务执行，如代码生成、错误修复和代码审查。该项目强调开源协作，允许社区贡献和定制，适合希望提升开发效率的团队或个人。",
+  "content": {
+    "key_points": [
+      "开源编码代理，专注于辅助软件开发任务",
+      "可能集成 LLM 实现代码生成、调试和审查",
+      "强调社区协作和可定制性"
+    ],
+    "tech_tags": [
+      "llm",
+      "agent",
+      "coding"
+    ],
+    "difficulty": "intermediate",
+    "rating": 7
+  },
+  "collected_at": "2026-06-15T13:44:01.992765+00:00",
+  "analyzed_at": "2026-06-15T13:44:21.506854+00:00",
+  "status": "published"
+}

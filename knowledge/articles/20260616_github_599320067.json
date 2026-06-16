@@ -1,0 +1,24 @@
+{
+  "id": "20260616_github_599320067",
+  "title": "langflow",
+  "source_url": "https://github.com/langflow-ai/langflow",
+  "source": "github",
+  "summary": "Langflow 是一个用于构建和部署 AI 驱动代理与工作流的强大工具。它提供可视化界面，支持低代码/无代码开发，可快速集成 LLM、RAG 等组件，适用于快速原型设计和生产级应用。",
+  "content": {
+    "key_points": [
+      "可视化构建 AI 工作流和代理，降低开发门槛",
+      "支持 LLM、RAG、Agent 等多种 AI 组件集成",
+      "适用于从原型设计到生产部署的全流程"
+    ],
+    "tech_tags": [
+      "llm",
+      "agent",
+      "rag"
+    ],
+    "difficulty": "beginner",
+    "rating": 8
+  },
+  "collected_at": "2026-06-16T12:43:42.266086+00:00",
+  "analyzed_at": "2026-06-16T12:44:14.725534+00:00",
+  "status": "published"
+}

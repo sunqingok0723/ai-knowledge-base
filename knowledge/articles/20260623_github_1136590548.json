@@ -1,0 +1,25 @@
+{
+  "id": "20260623_github_1136590548",
+  "title": "ECC",
+  "source_url": "https://github.com/affaan-m/ECC",
+  "source": "github",
+  "summary": "ECC 是一个面向 AI 代理的性能优化系统，专注于提升 Claude Code、Codex、Opencode、Cursor 等开发工具的代理能力。它整合了技能、本能、记忆、安全性和研究优先的开发方法，旨在优化代理在编码和开发任务中的表现。",
+  "content": {
+    "key_points": [
+      "ECC 是一个代理性能优化系统，而非单一工具",
+      "支持多种主流 AI 编码代理，如 Claude Code、Codex、Opencode、Cursor",
+      "核心功能包括技能、本能、记忆、安全性和研究优先开发",
+      "强调通过系统化方法提升代理的效率和可靠性"
+    ],
+    "tech_tags": [
+      "agent",
+      "llm",
+      "code-generation"
+    ],
+    "difficulty": "intermediate",
+    "rating": 7
+  },
+  "collected_at": "2026-06-23T10:51:40.524331+00:00",
+  "analyzed_at": "2026-06-23T10:51:47.086663+00:00",
+  "status": "published"
+}

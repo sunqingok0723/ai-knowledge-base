@@ -1,0 +1,23 @@
+{
+  "id": "20260624_rss_1ccddbb8",
+  "title": "We&#x27;re making Bunny DNS free: because a faster internet won&#x27;t build itself",
+  "source_url": "https://bunny.net/blog/were-making-bunny-dns-free/",
+  "source": "hacker_news",
+  "summary": "Bunny.net 宣布将其 DNS 服务免费开放，旨在加速全球互联网访问速度。该服务提供快速、可靠的 DNS 解析，支持高级功能如 DDoS 防护和边缘计算集成，无需付费即可使用。此举降低了高性能 DNS 的门槛，有助于提升网站加载速度和用户体验。",
+  "content": {
+    "key_points": [
+      "Bunny DNS 从付费转为完全免费服务",
+      "提供快速 DNS 解析，支持全球边缘节点",
+      "集成 DDoS 防护和边缘计算功能",
+      "旨在降低高性能 DNS 使用门槛，加速互联网"
+    ],
+    "tech_tags": [
+      "general"
+    ],
+    "difficulty": "beginner",
+    "rating": 7
+  },
+  "collected_at": "2026-06-24T10:38:16.614232+00:00",
+  "analyzed_at": "2026-06-24T10:38:19.781371+00:00",
+  "status": "published"
+}

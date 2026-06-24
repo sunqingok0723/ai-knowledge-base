@@ -1,0 +1,24 @@
+{
+  "id": "20260624_rss_a9800598",
+  "title": "Printing Gaussian Splats",
+  "source_url": "https://www.patreon.com/DanyBittel/posts/printing-splats-161333338",
+  "source": "hacker_news",
+  "summary": "本文介绍了将3D高斯泼溅（Gaussian Splats）技术应用于3D打印的探索。作者详细描述了如何将NeRF或3D高斯泼溅生成的场景转换为可打印的3D模型，包括点云提取、表面重建和网格优化等步骤。文章讨论了该技术在艺术复制、文物保护等领域的潜力，并分享了实际打印案例和遇到的挑战，如细节保留和支撑结构生成。",
+  "content": {
+    "key_points": [
+      "将3D高斯泼溅场景转换为可打印的3D模型，涉及点云提取和表面重建",
+      "实际打印案例展示了在艺术复制和文物保护中的应用潜力",
+      "面临细节保留、支撑结构生成等挑战，需优化网格和打印参数"
+    ],
+    "tech_tags": [
+      "3d-gaussian-splatting",
+      "nerf",
+      "3d-printing"
+    ],
+    "difficulty": "intermediate",
+    "rating": 7
+  },
+  "collected_at": "2026-06-24T10:38:16.614659+00:00",
+  "analyzed_at": "2026-06-24T10:38:56.064805+00:00",
+  "status": "published"
+}

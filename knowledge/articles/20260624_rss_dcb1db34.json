@@ -1,0 +1,23 @@
+{
+  "id": "20260624_rss_dcb1db34",
+  "title": "Why eval startups fail (2025)",
+  "source_url": "https://thomasliao.com/eval-startups",
+  "source": "hacker_news",
+  "summary": "本文分析了2025年AI评估（eval）初创公司失败的原因。核心观点是，评估工具本身难以独立创造可持续的商业价值，因为客户更倾向于将评估视为内部开发流程的一部分，而非采购独立产品。此外，评估市场碎片化、客户需求多变，以及大型AI平台（如OpenAI、Anthropic）内置评估功能，进一步挤压了初创公司的生存空间。",
+  "content": {
+    "key_points": [
+      "评估工具难以作为独立产品盈利，客户更倾向内部开发或使用平台内置功能。",
+      "评估市场碎片化且需求多变，导致初创公司难以规模化。",
+      "大型AI平台整合评估功能，削弱了第三方评估初创公司的竞争力。"
+    ],
+    "tech_tags": [
+      "llm",
+      "general"
+    ],
+    "difficulty": "intermediate",
+    "rating": 7
+  },
+  "collected_at": "2026-06-24T10:38:16.614511+00:00",
+  "analyzed_at": "2026-06-24T10:38:42.138824+00:00",
+  "status": "published"
+}

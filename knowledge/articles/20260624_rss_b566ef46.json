@@ -1,0 +1,22 @@
+{
+  "id": "20260624_rss_b566ef46",
+  "title": "Show HN: An ASCII 3D Rendering Engine",
+  "source_url": "https://glyphcss.com",
+  "source": "hacker_news",
+  "summary": "该项目是一个基于ASCII字符的3D渲染引擎，能够在终端或文本界面中实时渲染3D图形。它通过将3D模型投影到2D字符网格上，利用不同字符的密度模拟光照和阴影，实现了一种复古风格的视觉效果。该引擎可能支持基本的几何变换、旋转和视角控制，适合用于演示、游戏或艺术创作。",
+  "content": {
+    "key_points": [
+      "使用ASCII字符在终端中渲染3D图形",
+      "通过字符密度模拟光照和阴影效果",
+      "支持基本的3D几何变换和视角控制"
+    ],
+    "tech_tags": [
+      "general"
+    ],
+    "difficulty": "intermediate",
+    "rating": 7
+  },
+  "collected_at": "2026-06-24T10:38:16.614482+00:00",
+  "analyzed_at": "2026-06-24T10:38:39.364888+00:00",
+  "status": "published"
+}

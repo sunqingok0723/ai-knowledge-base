@@ -1,0 +1,22 @@
+{
+  "id": "20260624_rss_f81e86c3",
+  "title": "Statistics that live in your SQL",
+  "source_url": "https://kolistat.com/blog/the-stats-duck-v0-6-0/",
+  "source": "hacker_news",
+  "summary": "Kolistat 发布 v0.6.0 版本，核心功能是让统计计算直接在 SQL 数据库中运行，无需将数据导出到外部工具。该版本优化了性能，支持更复杂的统计查询，并增强了与现有 SQL 工作流的集成，旨在提升数据分析和决策效率。",
+  "content": {
+    "key_points": [
+      "v0.6.0 版本允许在 SQL 数据库内直接执行统计计算，减少数据移动。",
+      "优化了统计查询性能，支持更复杂的分析任务。",
+      "增强了与现有 SQL 工作流的无缝集成，提升数据分析效率。"
+    ],
+    "tech_tags": [
+      "general"
+    ],
+    "difficulty": "intermediate",
+    "rating": 7
+  },
+  "collected_at": "2026-06-24T10:38:16.614384+00:00",
+  "analyzed_at": "2026-06-24T10:38:30.892271+00:00",
+  "status": "published"
+}

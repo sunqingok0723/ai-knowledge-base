@@ -1,0 +1,24 @@
+{
+  "id": "20260624_rss_a5205863",
+  "title": "Qwen-AgentWorld: Language World Models for General Agents",
+  "source_url": "https://arxiv.org/abs/2606.24597",
+  "source": "hacker_news",
+  "summary": "Qwen-AgentWorld提出了一种基于语言的世界模型框架，用于构建通用智能体。该模型通过将环境状态编码为自然语言描述，并利用大语言模型进行推理和规划，使智能体能够在多种任务中实现泛化。实验表明，该方法在文本游戏、机器人控制等场景中显著优于传统强化学习基线，展示了语言模型作为世界模型的潜力。",
+  "content": {
+    "key_points": [
+      "提出语言世界模型，将环境状态转化为自然语言表示",
+      "利用大语言模型进行推理、规划和行动决策",
+      "在多个任务中超越传统强化学习方法，展现泛化能力"
+    ],
+    "tech_tags": [
+      "llm",
+      "agent",
+      "world model"
+    ],
+    "difficulty": "advanced",
+    "rating": 8
+  },
+  "collected_at": "2026-06-24T10:38:16.614540+00:00",
+  "analyzed_at": "2026-06-24T10:38:45.158760+00:00",
+  "status": "published"
+}

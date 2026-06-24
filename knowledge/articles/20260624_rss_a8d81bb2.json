@@ -1,0 +1,22 @@
+{
+  "id": "20260624_rss_a8d81bb2",
+  "title": "FUTO Swipe – A new swipe typing model",
+  "source_url": "https://swipe.futo.tech/",
+  "source": "hacker_news",
+  "summary": "FUTO Swipe 是一个新型的滑动输入模型，旨在提升移动设备上的文本输入效率和准确性。它通过优化手势识别和预测算法，使用户能够更快速、更流畅地完成滑动输入，减少错误率。该项目可能结合了机器学习或自然语言处理技术来改进输入体验，适用于移动端应用。",
+  "content": {
+    "key_points": [
+      "FUTO Swipe 专注于移动设备上的滑动输入体验优化",
+      "通过改进手势识别和预测算法提升输入速度和准确性",
+      "可能利用机器学习或NLP技术实现更智能的文本预测"
+    ],
+    "tech_tags": [
+      "general"
+    ],
+    "difficulty": "beginner",
+    "rating": 7
+  },
+  "collected_at": "2026-06-24T10:38:16.614452+00:00",
+  "analyzed_at": "2026-06-24T10:38:36.493259+00:00",
+  "status": "published"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "20260624_rss_b1eb464b",
+  "title": "Show HN: TikZ Editor – WYSIWYG editor for figures in LaTeX",
+  "source_url": "https://tikz.dev/editor/",
+  "source": "hacker_news",
+  "summary": "TikZ Editor 是一个所见即所得的在线编辑器，用于在 LaTeX 文档中创建和编辑 TikZ 图形。它提供了直观的界面，用户无需手动编写复杂的 TikZ 代码即可绘制流程图、电路图、几何图形等。该工具支持实时预览、图形拖拽调整、节点连接等功能，显著降低了 LaTeX 绘图的学习门槛和操作复杂度。",
+  "content": {
+    "key_points": [
+      "所见即所得（WYSIWYG）界面，无需编写 TikZ 代码",
+      "支持实时预览和图形拖拽调整",
+      "适用于 LaTeX 文档中的流程图、电路图、几何图形等"
+    ],
+    "tech_tags": [
+      "general"
+    ],
+    "difficulty": "beginner",
+    "rating": 8
+  },
+  "collected_at": "2026-06-24T10:38:16.614771+00:00",
+  "analyzed_at": "2026-06-24T10:39:13.571858+00:00",
+  "status": "published"
+}

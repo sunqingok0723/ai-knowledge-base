@@ -1,0 +1,22 @@
+{
+  "id": "20260624_rss_2df3c24d",
+  "title": "Raspberry Pi Pico W as USB Wi-Fi Adapter",
+  "source_url": "https://gitlab.com/baiyibai/pico-usb-wifi",
+  "source": "hacker_news",
+  "summary": "该项目展示了如何将树莓派Pico W微控制器用作USB Wi-Fi适配器，通过其内置的Wi-Fi模块和USB接口，实现网络连接功能。它提供了固件和配置指南，适用于需要低成本、低功耗无线网络解决方案的场景。",
+  "content": {
+    "key_points": [
+      "利用树莓派Pico W的Wi-Fi和USB功能模拟USB Wi-Fi适配器",
+      "提供固件烧录和配置步骤，支持多种操作系统",
+      "适用于嵌入式系统、物联网设备或临时网络连接需求"
+    ],
+    "tech_tags": [
+      "general"
+    ],
+    "difficulty": "intermediate",
+    "rating": 7
+  },
+  "collected_at": "2026-06-24T10:38:16.614319+00:00",
+  "analyzed_at": "2026-06-24T10:38:25.296261+00:00",
+  "status": "published"
+}

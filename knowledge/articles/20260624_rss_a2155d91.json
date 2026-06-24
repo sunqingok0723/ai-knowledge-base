@@ -1,0 +1,22 @@
+{
+  "id": "20260624_rss_a2155d91",
+  "title": "In memory of the man who put red and green squiggles under words",
+  "source_url": "https://devblogs.microsoft.com/oldnewthing/20260622-00/?p=112451",
+  "source": "hacker_news",
+  "summary": "本文纪念了一位在文字处理领域做出重要贡献的人物，他实现了在文档中为拼写和语法错误添加红色和绿色波浪下划线的功能。这项技术后来成为现代文字处理软件的标准特性，极大提升了文本校对效率。文章回顾了其技术实现细节和对用户体验的深远影响。",
+  "content": {
+    "key_points": [
+      "纪念一位实现拼写和语法错误波浪下划线功能的技术先驱",
+      "该功能成为文字处理软件（如Word）的标配特性",
+      "技术实现涉及实时文本分析和视觉反馈机制"
+    ],
+    "tech_tags": [
+      "general"
+    ],
+    "difficulty": "beginner",
+    "rating": 7
+  },
+  "collected_at": "2026-06-24T10:38:16.614416+00:00",
+  "analyzed_at": "2026-06-24T10:38:33.818272+00:00",
+  "status": "published"
+}

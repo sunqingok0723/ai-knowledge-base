@@ -1,0 +1,22 @@
+{
+  "id": "20260624_rss_ff878a1a",
+  "title": "European Commission&#x27;s Metsola Overrides MEPs to Force Through Chat Control",
+  "source_url": "https://www.politico.eu/article/president-vs-parliament-roberta-metsola-overrides-meps-bid-force-child-abuse-law/",
+  "source": "hacker_news",
+  "summary": "欧洲议会议长梅措拉绕过议员反对，强行推动一项有争议的儿童性虐待材料检测法规（Chat Control），该法规要求加密通信平台扫描用户消息，引发隐私与安全之间的激烈辩论。",
+  "content": {
+    "key_points": [
+      "欧洲议会议长梅措拉利用程序权力，无视多数议员反对，推进Chat Control立法。",
+      "该法规旨在强制加密消息应用扫描儿童性虐待内容，但被批评破坏端到端加密和隐私。",
+      "此举引发欧洲议会内部权力斗争，并可能影响欧盟数字隐私法律框架。"
+    ],
+    "tech_tags": [
+      "general"
+    ],
+    "difficulty": "beginner",
+    "rating": 7
+  },
+  "collected_at": "2026-06-24T10:38:16.614756+00:00",
+  "analyzed_at": "2026-06-24T10:39:10.566801+00:00",
+  "status": "published"
+}

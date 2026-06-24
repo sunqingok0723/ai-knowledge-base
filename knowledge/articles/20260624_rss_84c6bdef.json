@@ -1,0 +1,23 @@
+{
+  "id": "20260624_rss_84c6bdef",
+  "title": "Jerry&#x27;s Map",
+  "source_url": "http://www.jerrysmap.com/the-map",
+  "source": "hacker_news",
+  "summary": "Jerry's Map 是一个持续进行中的手绘地图项目，由艺术家 Jerry Gretzinger 自1963年开始创作。该项目以模块化方式不断扩展，包含虚构的城市、地形和叙事元素，展示了人类创造力与系统化思维的结合。",
+  "content": {
+    "key_points": [
+      "自1963年起持续创作的手绘地图项目",
+      "采用模块化网格系统，可无限扩展",
+      "融合虚构地理、城市规划和随机元素",
+      "体现艺术与系统化思维的交叉"
+    ],
+    "tech_tags": [
+      "general"
+    ],
+    "difficulty": "beginner",
+    "rating": 7
+  },
+  "collected_at": "2026-06-24T10:38:16.614354+00:00",
+  "analyzed_at": "2026-06-24T10:38:28.125817+00:00",
+  "status": "published"
+}

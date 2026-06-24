@@ -1,0 +1,22 @@
+{
+  "id": "20260624_rss_99a3bd1b",
+  "title": "Rhombus Language 1.0",
+  "source_url": "https://blog.racket-lang.org/2026/06/rhombus-v1.0.html",
+  "source": "hacker_news",
+  "summary": "Rhombus Language 1.0 是 Racket 语言家族的一个新成员，旨在提供更简洁、更现代的语法，同时保持 Racket 的宏系统和元编程能力。该版本标志着 Rhombus 从实验阶段进入稳定阶段，为开发者提供了一种更易读、更符合现代编程习惯的 Lisp 方言。",
+  "content": {
+    "key_points": [
+      "Rhombus 1.0 是 Racket 生态中的一个新语言，语法更接近主流语言（如 Python 和 JavaScript）。",
+      "保留了 Racket 强大的宏系统和元编程能力，允许开发者自定义语法。",
+      "旨在降低 Lisp 家族语言的学习曲线，吸引更多开发者使用 Racket 生态。"
+    ],
+    "tech_tags": [
+      "general"
+    ],
+    "difficulty": "intermediate",
+    "rating": 7
+  },
+  "collected_at": "2026-06-24T10:38:16.614707+00:00",
+  "analyzed_at": "2026-06-24T10:39:01.551951+00:00",
+  "status": "published"
+}

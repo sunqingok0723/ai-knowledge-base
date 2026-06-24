@@ -1,0 +1,23 @@
+{
+  "id": "20260624_rss_84907343",
+  "title": "Grok Build 0.1: Intelligence, Performance and Price Analysis",
+  "source_url": "https://artificialanalysis.ai/models/grok-build-0-1-06-16",
+  "source": "hacker_news",
+  "summary": "Grok Build 0.1 是 xAI 发布的最新大语言模型版本，在智能水平、推理性能和成本效率方面进行了显著优化。该模型在多项基准测试中展现出与 GPT-4 等顶级模型竞争的能力，同时推理速度更快、部署成本更低。分析显示其在数学推理、代码生成和长上下文理解方面表现突出，适合需要高性价比 AI 解决方案的企业用户。",
+  "content": {
+    "key_points": [
+      "Grok Build 0.1 在多项基准测试中达到或接近 GPT-4 水平，尤其在数学和代码任务上表现优异",
+      "推理速度提升约 30%，同时推理成本降低 40-50%，显著优化了性价比",
+      "支持 128K 上下文窗口，在长文档理解和复杂推理任务中表现稳定"
+    ],
+    "tech_tags": [
+      "llm",
+      "general"
+    ],
+    "difficulty": "intermediate",
+    "rating": 8
+  },
+  "collected_at": "2026-06-24T10:38:16.614601+00:00",
+  "analyzed_at": "2026-06-24T10:38:50.842409+00:00",
+  "status": "published"
+}

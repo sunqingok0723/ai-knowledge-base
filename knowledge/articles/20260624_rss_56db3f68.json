@@ -1,0 +1,22 @@
+{
+  "id": "20260624_rss_56db3f68",
+  "title": "Remaking BBC test cards to teach you video processing",
+  "source_url": "https://www.youtube.com/watch?v=U_6HxPkrgcg",
+  "source": "hacker_news",
+  "summary": "该视频通过重新制作BBC测试卡，深入讲解视频处理技术，涵盖色彩空间、信号生成、图像编码等核心概念，适合学习视频处理原理的实践教程。",
+  "content": {
+    "key_points": [
+      "使用BBC测试卡作为教学工具，演示视频信号生成与处理流程",
+      "讲解色彩空间（如YUV、RGB）在视频编码中的应用",
+      "通过实际代码或工具实现测试卡图像的合成与处理"
+    ],
+    "tech_tags": [
+      "general"
+    ],
+    "difficulty": "intermediate",
+    "rating": 7
+  },
+  "collected_at": "2026-06-24T10:38:16.614690+00:00",
+  "analyzed_at": "2026-06-24T10:38:58.495150+00:00",
+  "status": "published"
+}

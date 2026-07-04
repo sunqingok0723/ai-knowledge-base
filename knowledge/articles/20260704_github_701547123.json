@@ -1,0 +1,23 @@
+{
+  "id": "20260704_github_701547123",
+  "title": "open-webui",
+  "source_url": "https://github.com/open-webui/open-webui",
+  "source": "github",
+  "summary": "Open WebUI 是一个用户友好的 AI 交互界面，支持连接 Ollama 和 OpenAI API 等多种后端。它提供了直观的聊天、模型管理和对话历史功能，旨在简化与大型语言模型的交互体验，适合个人和团队快速部署使用。",
+  "content": {
+    "key_points": [
+      "提供直观的图形界面，降低与 LLM 交互的门槛",
+      "支持多种后端，包括 Ollama 和 OpenAI API",
+      "具备对话管理、模型切换等实用功能"
+    ],
+    "tech_tags": [
+      "llm",
+      "general"
+    ],
+    "difficulty": "beginner",
+    "rating": 8
+  },
+  "collected_at": "2026-07-04T09:57:18.188692+00:00",
+  "analyzed_at": "2026-07-04T09:58:00.861439+00:00",
+  "status": "published"
+}

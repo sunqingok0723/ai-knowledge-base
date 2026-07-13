@@ -1,0 +1,26 @@
+{
+  "id": "20260713_github_1061953414",
+  "title": "skills",
+  "source_url": "https://github.com/anthropics/skills",
+  "source": "github",
+  "summary": "Anthropics 官方发布的 Agent Skills 公共仓库，旨在为 AI 代理（Agent）提供可复用的技能模块。该仓库包含一系列预构建的、与 Anthropic 模型（如 Claude）兼容的代理能力组件，如工具调用、记忆管理、多步骤推理等。通过标准化技能接口，开发者可以快速组合和部署具备特定功能的智能代理，降低从零构建 Agent 系统的门槛。项目目前处于早期阶段，但代表了 Agent 工程化的重要方向。",
+  "content": {
+    "key_points": [
+      "Anthropic 官方维护的 Agent 技能公共仓库",
+      "提供可复用的代理能力模块（如工具调用、记忆、推理）",
+      "降低构建 AI Agent 的工程复杂度",
+      "与 Claude 等 Anthropic 模型深度兼容",
+      "支持技能组合与快速部署"
+    ],
+    "tech_tags": [
+      "agent",
+      "llm",
+      "tool-use"
+    ],
+    "difficulty": "intermediate",
+    "rating": 8
+  },
+  "collected_at": "2026-07-13T10:46:47.775969+00:00",
+  "analyzed_at": "2026-07-13T10:47:16.463935+00:00",
+  "status": "published"
+}

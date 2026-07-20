@@ -3,6 +3,6 @@
   "source": "github",
   "title": "dify",
   "url": "https://github.com/langgenius/dify",
-  "description": "Production-ready platform for agentic workflow development.",
-  "collected_at": "2026-07-19T09:41:12.484378+00:00"
+  "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+  "collected_at": "2026-07-20T10:37:18.566129+00:00"
 }

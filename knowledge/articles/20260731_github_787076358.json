@@ -1,0 +1,26 @@
+{
+  "id": "20260731_github_787076358",
+  "title": "firecrawl",
+  "source_url": "https://github.com/firecrawl/firecrawl",
+  "source": "github",
+  "summary": "Firecrawl 是一个强大的网页数据抓取与交互 API，专为大规模数据采集而设计。它支持网页搜索、抓取和交互，能够将网页内容转换为干净的 Markdown 或结构化数据，方便用于 AI 应用，如训练大语言模型（LLM）、构建检索增强生成（RAG）系统或驱动智能体（Agent）获取实时信息。该工具强调易用性和扩展性，提供 REST API 接口，并支持多种编程语言 SDK，适合开发者快速集成。",
+  "content": {
+    "key_points": [
+      "提供统一的 API 进行网页搜索、抓取和交互，简化数据采集流程。",
+      "输出格式为干净的 Markdown 或结构化数据，便于 AI 模型直接使用。",
+      "专为 AI 应用设计，支持 LLM 训练、RAG 数据管道和 Agent 工具集成。",
+      "支持大规模并发抓取，具备反爬虫处理能力。",
+      "提供多语言 SDK（如 Python、Node.js），易于集成。"
+    ],
+    "tech_tags": [
+      "llm",
+      "rag",
+      "agent"
+    ],
+    "difficulty": "beginner",
+    "rating": 9
+  },
+  "collected_at": "2026-07-31T10:25:03.401787+00:00",
+  "analyzed_at": "2026-07-31T10:25:39.209338+00:00",
+  "status": "published"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "20260804_github_1148788086",
+  "title": "skills",
+  "source_url": "https://github.com/mattpocock/skills",
+  "source": "github",
+  "summary": "这是一个名为“skills”的开源项目，由开发者mattpocock创建，内容直接来自其个人.agents目录。该项目旨在为真实工程师提供实用的AI技能集，而非理论或演示。它可能包含一系列针对AI代理（Agent）的指令、工作流或最佳实践，帮助工程师更高效地利用AI工具。项目强调实战性，适合希望将AI集成到日常开发工作中的工程师参考。",
+  "content": {
+    "key_points": [
+      "项目内容源于作者个人的.agents目录，具有实战背景",
+      "目标受众是真实工程师，强调实用性而非学术性",
+      "可能包含AI代理的配置、指令或工作流示例",
+      "适合希望提升AI工具使用效率的开发者"
+    ],
+    "tech_tags": [
+      "agent",
+      "llm",
+      "general"
+    ],
+    "difficulty": "intermediate",
+    "rating": 7
+  },
+  "collected_at": "2026-08-04T10:24:38.175810+00:00",
+  "analyzed_at": "2026-08-04T10:24:49.891890+00:00",
+  "status": "published"
+}

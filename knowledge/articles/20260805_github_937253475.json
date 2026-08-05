@@ -1,0 +1,26 @@
+{
+  "id": "20260805_github_937253475",
+  "title": "claude-code",
+  "source_url": "https://github.com/anthropics/claude-code",
+  "source": "github",
+  "summary": "Claude Code 是 Anthropic 推出的智能编码工具，运行在终端中，能理解代码库，通过自然语言指令执行日常任务、解释复杂代码和处理 Git 工作流，帮助开发者提高编码效率。",
+  "content": {
+    "key_points": [
+      "终端原生运行，无需离开开发环境",
+      "通过自然语言交互，降低使用门槛",
+      "具备代码理解能力，可解释复杂逻辑",
+      "支持自动化执行日常编码任务",
+      "集成 Git 工作流处理，提升开发效率"
+    ],
+    "tech_tags": [
+      "llm",
+      "agent",
+      "coding-tool"
+    ],
+    "difficulty": "beginner",
+    "rating": 8
+  },
+  "collected_at": "2026-08-05T10:20:40.730457+00:00",
+  "analyzed_at": "2026-08-05T10:21:37.235627+00:00",
+  "status": "published"
+}

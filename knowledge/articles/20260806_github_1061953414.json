@@ -1,0 +1,24 @@
+{
+  "id": "20260806_github_1061953414",
+  "title": "skills",
+  "source_url": "https://github.com/anthropics/skills",
+  "source": "github",
+  "summary": "这是Anthropic官方发布的Agent Skills公共仓库，用于存储和共享Agent技能。该仓库旨在为AI代理提供可复用的技能模块，帮助开发者构建更强大的智能体应用。通过这个仓库，开发者可以获取Anthropic官方推荐的Agent技能实现，包括工具调用、任务执行等核心能力。",
+  "content": {
+    "key_points": [
+      "Anthropic官方发布的Agent Skills公共仓库",
+      "提供可复用的Agent技能模块和实现",
+      "支持开发者构建更强大的AI代理应用"
+    ],
+    "tech_tags": [
+      "agent",
+      "llm",
+      "tools"
+    ],
+    "difficulty": "intermediate",
+    "rating": 8
+  },
+  "collected_at": "2026-08-06T10:22:47.864682+00:00",
+  "analyzed_at": "2026-08-06T10:23:15.795218+00:00",
+  "status": "published"
+}

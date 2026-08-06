@@ -1,0 +1,24 @@
+{
+  "id": "20260806_github_1024554267",
+  "title": "hermes-agent",
+  "source_url": "https://github.com/NousResearch/hermes-agent",
+  "source": "github",
+  "summary": "hermes-agent 是 NousResearch 推出的智能体项目，定位为“与你一同成长的智能体”。该项目强调智能体的持续学习与个性化适应能力，旨在构建一个能够根据用户交互和历史数据不断优化自身行为的 AI 系统。目前仓库处于早期阶段，核心亮点在于其“成长性”设计理念，可能涉及记忆管理、用户画像建模及自适应策略调整等技术方向。适合关注智能体长期演进与个性化服务的开发者。",
+  "content": {
+    "key_points": [
+      "由 NousResearch 维护，定位为成长型 AI 智能体",
+      "核心理念：智能体随用户交互持续进化，强调个性化适应",
+      "项目处于早期，技术细节尚不明确，但方向聚焦于长期学习与记忆"
+    ],
+    "tech_tags": [
+      "agent",
+      "llm",
+      "personalization"
+    ],
+    "difficulty": "intermediate",
+    "rating": 7
+  },
+  "collected_at": "2026-08-06T10:22:47.864668+00:00",
+  "analyzed_at": "2026-08-06T10:22:57.149257+00:00",
+  "status": "published"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "20260813_github_1073224795",
+  "title": "superpowers",
+  "source_url": "https://github.com/obra/superpowers",
+  "source": "github",
+  "summary": "superpowers 是一个开源的智能体技能框架与软件开发方法论，旨在为 AI Agent 提供结构化的技能定义、组合与执行能力。它通过将复杂任务拆解为可复用的技能单元，结合明确的开发流程，帮助开发者更高效地构建、测试和部署基于大语言模型的智能体应用。该项目强调实用性和可操作性，提供了一套从设计到落地的完整实践指南。",
+  "content": {
+    "key_points": [
+      "提出了一种结构化的 Agent 技能框架，用于定义和复用 AI 能力",
+      "结合了具体的软件开发方法论，指导从设计到部署的完整流程",
+      "开源项目，提供可直接参考的代码和文档，强调实践落地"
+    ],
+    "tech_tags": [
+      "llm",
+      "agent",
+      "framework"
+    ],
+    "difficulty": "intermediate",
+    "rating": 8
+  },
+  "collected_at": "2026-08-13T08:59:16.298384+00:00",
+  "analyzed_at": "2026-08-13T08:59:19.461394+00:00",
+  "status": "published"
+}

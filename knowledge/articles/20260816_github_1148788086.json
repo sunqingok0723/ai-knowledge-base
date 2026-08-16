@@ -1,0 +1,24 @@
+{
+  "id": "20260816_github_1148788086",
+  "title": "skills",
+  "source_url": "https://github.com/mattpocock/skills",
+  "source": "github",
+  "summary": "这是一个面向真实工程师的AI技能集合，直接来自作者mattpocock的.agents目录。该仓库旨在为开发者提供实用、可直接使用的Agent技能，帮助他们在实际工程中应用AI。内容可能涵盖提示词工程、工具调用、工作流设计等，强调实战性和可操作性，而非理论介绍。",
+  "content": {
+    "key_points": [
+      "技能集合来自作者实际使用的.agents目录，具有实战性",
+      "面向真实工程师，强调在工程场景中应用AI",
+      "内容可能包括提示词、工具调用、工作流等实用技能"
+    ],
+    "tech_tags": [
+      "agent",
+      "llm",
+      "engineering"
+    ],
+    "difficulty": "intermediate",
+    "rating": 8
+  },
+  "collected_at": "2026-08-16T08:13:38.577991+00:00",
+  "analyzed_at": "2026-08-16T08:13:49.518491+00:00",
+  "status": "published"
+}

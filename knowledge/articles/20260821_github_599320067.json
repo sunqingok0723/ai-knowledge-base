@@ -1,0 +1,26 @@
+{
+  "id": "20260821_github_599320067",
+  "title": "langflow",
+  "source_url": "https://github.com/langflow-ai/langflow",
+  "source": "github",
+  "summary": "Langflow 是一个用于构建和部署 AI 智能体及工作流的强大工具。它提供可视化界面，让开发者能够通过拖拽组件的方式快速搭建基于大语言模型的应用，降低开发门槛。该项目在 GitHub 上开源，支持复杂的 AI 工作流编排，是当前 LLM 应用开发领域的热门框架之一。",
+  "content": {
+    "key_points": [
+      "可视化拖拽式构建 AI 工作流",
+      "支持 AI 智能体（Agent）的创建与部署",
+      "开源项目，托管于 GitHub",
+      "降低 LLM 应用开发门槛"
+    ],
+    "tech_tags": [
+      "llm",
+      "agent",
+      "workflow",
+      "low-code"
+    ],
+    "difficulty": "beginner",
+    "rating": 8
+  },
+  "collected_at": "2026-08-21T08:23:08.970462+00:00",
+  "analyzed_at": "2026-08-21T08:23:44.995984+00:00",
+  "status": "published"
+}

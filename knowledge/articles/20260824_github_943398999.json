@@ -1,0 +1,25 @@
+{
+  "id": "20260824_github_943398999",
+  "title": "system-prompts-and-models-of-ai-tools",
+  "source_url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+  "source": "github",
+  "summary": "该GitHub仓库收集了众多主流AI工具的系统提示词、内部工具及模型信息，包括Claude Code、Cursor、Devin AI、Manus、Windsurf等。这些提示词揭示了各工具的设计思路、功能边界和潜在局限，对于理解AI Agent的底层逻辑、进行逆向工程或优化自身提示词具有重要参考价值。仓库内容持续更新，是AI开发者和研究者的宝贵资源。",
+  "content": {
+    "key_points": [
+      "收录了超过25款主流AI工具的系统提示词，覆盖编程助手、通用助手、设计工具等类别。",
+      "提供了各工具的内部工具调用方式和模型信息，有助于理解其架构和决策过程。",
+      "适合用于逆向工程、提示词优化、以及对比不同AI工具的设计哲学。",
+      "仓库持续更新，内容具有时效性和实用性。"
+    ],
+    "tech_tags": [
+      "llm",
+      "agent",
+      "prompt-engineering"
+    ],
+    "difficulty": "intermediate",
+    "rating": 8
+  },
+  "collected_at": "2026-08-24T08:33:11.644565+00:00",
+  "analyzed_at": "2026-08-24T08:34:01.693402+00:00",
+  "status": "published"
+}

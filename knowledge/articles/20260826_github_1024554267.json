@@ -1,0 +1,24 @@
+{
+  "id": "20260826_github_1024554267",
+  "title": "hermes-agent",
+  "source_url": "https://github.com/NousResearch/hermes-agent",
+  "source": "github",
+  "summary": "hermes-agent 是 NousResearch 推出的一个 AI 代理项目，其核心理念是“与你共同成长”。该项目旨在构建一个可扩展、可个性化定制的智能体，能够根据用户的使用习惯和需求不断进化。它可能集成了先进的 LLM 推理能力，并支持多种工具调用，以适应从简单问答到复杂任务处理的多种场景。作为一个开源项目，它为开发者提供了构建下一代自适应 AI 助手的基座。",
+  "content": {
+    "key_points": [
+      "由知名 AI 研究组织 NousResearch 开发，具备较强的技术背景和社区关注度。",
+      "核心理念是“成长型”代理，强调智能体能够随用户使用而持续优化和适应。",
+      "项目定位为通用型 AI 代理，可能涉及工具使用、任务规划等高级功能。"
+    ],
+    "tech_tags": [
+      "llm",
+      "agent",
+      "general"
+    ],
+    "difficulty": "intermediate",
+    "rating": 8
+  },
+  "collected_at": "2026-08-26T08:27:21.562330+00:00",
+  "analyzed_at": "2026-08-26T08:27:32.681039+00:00",
+  "status": "published"
+}

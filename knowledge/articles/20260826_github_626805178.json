@@ -1,0 +1,26 @@
+{
+  "id": "20260826_github_626805178",
+  "title": "dify",
+  "source_url": "https://github.com/langgenius/dify",
+  "source": "github",
+  "summary": "Dify是一个开源的LLM应用开发平台，支持构建Agent工作流和RAG管道，集成了丰富的AI模型和工具。它提供协作工作空间，支持云端、VPC或自托管部署，使团队能够从原型快速过渡到生产环境，无需重建技术栈。",
+  "content": {
+    "key_points": [
+      "支持构建Agentic工作流和RAG管道",
+      "集成多种AI模型和工具，提供协作工作空间",
+      "支持云端、VPC和自托管多种部署方式",
+      "实现从原型到生产的无缝过渡"
+    ],
+    "tech_tags": [
+      "llm",
+      "agent",
+      "rag",
+      "workflow"
+    ],
+    "difficulty": "beginner",
+    "rating": 9
+  },
+  "collected_at": "2026-08-26T08:27:21.562362+00:00",
+  "analyzed_at": "2026-08-26T08:28:01.287389+00:00",
+  "status": "published"
+}

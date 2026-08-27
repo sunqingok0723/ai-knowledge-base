@@ -1,0 +1,24 @@
+{
+  "id": "20260827_github_1148788086",
+  "title": "skills",
+  "source_url": "https://github.com/mattpocock/skills",
+  "source": "github",
+  "summary": "这是一个由开发者 Matt Pocock 维护的开源仓库，名为 'skills'，其中包含了他个人 `.agents` 目录下的技能定义。这些技能旨在为 AI 工程师（尤其是使用 Claude Code 等 Agent 工具的开发者）提供可直接复用的最佳实践和配置。仓库的核心价值在于将真实工程环境中验证过的 Agent 技能（如代码审查、测试、调试等）进行开源分享，帮助开发者提升 AI 编程助手的效率和准确性。",
+  "content": {
+    "key_points": [
+      "开源仓库，包含作者个人 `.agents` 目录下的技能定义",
+      "技能面向真实工程师，强调实用性和可复用性",
+      "可直接用于配置和增强 AI Agent（如 Claude Code）的工程能力"
+    ],
+    "tech_tags": [
+      "agent",
+      "claude-code",
+      "developer-tools"
+    ],
+    "difficulty": "intermediate",
+    "rating": 8
+  },
+  "collected_at": "2026-08-27T18:26:58.678498+00:00",
+  "analyzed_at": "2026-08-27T18:27:07.095295+00:00",
+  "status": "published"
+}

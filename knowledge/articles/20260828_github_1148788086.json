@@ -1,0 +1,24 @@
+{
+  "id": "20260828_github_1148788086",
+  "title": "skills",
+  "source_url": "https://github.com/mattpocock/skills",
+  "source": "github",
+  "summary": "这是一个名为“skills”的 GitHub 仓库，由开发者 mattpocock 创建，旨在分享其个人 `.agents` 目录中的技能集合。这些技能专为“真正的工程师”设计，可能包含用于 AI 代理（如 Claude、Cursor 等）的指令、提示词或工作流程，以提升编码和开发效率。仓库内容直接来源于作者的实际使用经验，具有很高的实用性和参考价值。",
+  "content": {
+    "key_points": [
+      "仓库直接分享作者个人 `.agents` 目录中的技能，内容真实且经过实践检验。",
+      "目标受众是“真正的工程师”，技能可能侧重于代码生成、重构、调试等实际开发场景。",
+      "该仓库可作为 AI 代理技能配置的参考模板，帮助开发者定制自己的工作流。"
+    ],
+    "tech_tags": [
+      "agent",
+      "llm",
+      "coding"
+    ],
+    "difficulty": "intermediate",
+    "rating": 8
+  },
+  "collected_at": "2026-08-28T19:40:45.695897+00:00",
+  "analyzed_at": "2026-08-28T19:40:53.616266+00:00",
+  "status": "published"
+}

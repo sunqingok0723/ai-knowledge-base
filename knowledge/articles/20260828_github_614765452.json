@@ -1,0 +1,25 @@
+{
+  "id": "20260828_github_614765452",
+  "title": "AutoGPT",
+  "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+  "source": "github",
+  "summary": "AutoGPT 是一个旨在让 AI 技术对所有人开放、易于使用和构建的开源项目。其核心理念是提供工具，让用户能够专注于真正重要的事情，而非底层技术细节。该项目代表了 AI 应用从单一模型向自主智能体（Agent）演进的趋势，通过自动化任务执行，降低 AI 应用门槛，使个人和开发者都能快速构建和部署 AI 解决方案。",
+  "content": {
+    "key_points": [
+      "愿景是让 AI 对所有人可访问，既可用也可构建",
+      "提供工具以降低 AI 应用开发门槛",
+      "代表自主智能体（Agent）方向的实践",
+      "强调用户聚焦核心业务，而非技术细节"
+    ],
+    "tech_tags": [
+      "agent",
+      "llm",
+      "general"
+    ],
+    "difficulty": "beginner",
+    "rating": 8
+  },
+  "collected_at": "2026-08-28T19:40:45.695910+00:00",
+  "analyzed_at": "2026-08-28T19:41:05.154047+00:00",
+  "status": "published"
+}

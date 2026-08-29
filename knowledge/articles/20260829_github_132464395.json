@@ -1,0 +1,27 @@
+{
+  "id": "20260829_github_132464395",
+  "title": "JavaGuide",
+  "source_url": "https://github.com/Snailclimb/JavaGuide",
+  "source": "github",
+  "summary": "JavaGuide 是一个全面的 Java 面试与后端开发指南，覆盖计算机基础、数据库、分布式系统、高并发、系统设计等核心领域，并新增 AI 应用开发内容。它面向求职者和开发者，提供系统化的知识梳理和面试准备材料，是 Java 后端学习与面试的经典资源。",
+  "content": {
+    "key_points": [
+      "覆盖 Java 核心、计算机基础、数据库、分布式、高并发等后端必备知识",
+      "包含系统设计、面试技巧和实战经验，适合面试准备",
+      "新增 AI 应用开发章节，涉及 LLM 应用、RAG 等前沿技术",
+      "开源项目，社区活跃，持续更新，内容质量高"
+    ],
+    "tech_tags": [
+      "general",
+      "java",
+      "ai",
+      "llm",
+      "rag"
+    ],
+    "difficulty": "intermediate",
+    "rating": 9
+  },
+  "collected_at": "2026-08-29T13:25:55.897644+00:00",
+  "analyzed_at": "2026-08-29T13:26:29.198962+00:00",
+  "status": "published"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "20260905_github_1148788086",
+  "title": "skills",
+  "source_url": "https://github.com/mattpocock/skills",
+  "source": "github",
+  "summary": "这是一个由资深工程师维护的AI Agent技能集合仓库，直接来源于作者本人的.agents目录。该仓库旨在为真实工程师提供可直接使用的Agent技能，内容涵盖代码生成、代码审查、测试编写等工程实践场景。通过分享个人实际使用的配置和技能，帮助开发者快速搭建高效的AI辅助开发环境，提升日常开发效率。",
+  "content": {
+    "key_points": [
+      "来源于作者实际使用的.agents目录，具有真实性和实用性",
+      "面向真实工程师场景，而非学术或演示用途",
+      "提供可直接复用的Agent技能配置，降低上手门槛"
+    ],
+    "tech_tags": [
+      "agent",
+      "llm",
+      "developer-tools"
+    ],
+    "difficulty": "intermediate",
+    "rating": 8
+  },
+  "collected_at": "2026-09-05T11:25:47.181118+00:00",
+  "analyzed_at": "2026-09-05T11:25:52.181131+00:00",
+  "status": "published"
+}

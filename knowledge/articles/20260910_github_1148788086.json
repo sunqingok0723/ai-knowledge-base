@@ -1,0 +1,24 @@
+{
+  "id": "20260910_github_1148788086",
+  "title": "skills",
+  "source_url": "https://github.com/mattpocock/skills",
+  "source": "github",
+  "summary": "这是知名 TypeScript 教育者 Matt Pocock 开源的 GitHub 仓库，收录了他个人 .agents 目录中实际使用的 AI Agent 技能（Skills）集合。这些技能面向真实工程场景，旨在帮助开发者将 LLM/Agent 能力落地到日常编码工作中，属于实用的 Agent 配置与提示词资源分享。",
+  "content": {
+    "key_points": [
+      "作者 Matt Pocock 是知名 TypeScript 教育者，内容来自其真实使用的 .agents 目录",
+      "聚焦面向真实工程师的 Agent 技能（Skills）配置",
+      "可作为开发者构建和定制自己 AI Agent 工作流的参考资源"
+    ],
+    "tech_tags": [
+      "agent",
+      "llm",
+      "prompt-engineering"
+    ],
+    "difficulty": "intermediate",
+    "rating": 7
+  },
+  "collected_at": "2026-09-10T12:25:15.892863+00:00",
+  "analyzed_at": "2026-09-10T12:25:20.497496+00:00",
+  "status": "published"
+}

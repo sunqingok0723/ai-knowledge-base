@@ -1,0 +1,26 @@
+{
+  "id": "20260910_github_975734319",
+  "title": "opencode",
+  "source_url": "https://github.com/anomalyco/opencode",
+  "source": "github",
+  "summary": "opencode 是由 anomalyco 团队开发的开源编码智能体（coding agent），托管于 GitHub 平台。该项目定位为开源 AI 编程助手，旨在通过大语言模型驱动的 Agent 能力辅助开发者完成代码编写、修改与理解等任务。作为开源项目，它允许开发者自由查看、修改和分发代码，支持社区协作与二次开发。该项目属于当前热门的 AI 编程工具赛道，与 Claude Code、Cursor、Aider 等产品形成竞争或互补关系，适合希望自建或定制编码 Agent 的开发者使用。",
+  "content": {
+    "key_points": [
+      "开源编码智能体，代码可自由查看、修改和分发",
+      "基于 LLM 驱动的 Agent 能力辅助代码编写与理解",
+      "托管于 GitHub，支持社区协作与二次开发",
+      "属于 AI 编程工具赛道，可与 Claude Code、Cursor 等对比"
+    ],
+    "tech_tags": [
+      "llm",
+      "agent",
+      "coding-assistant",
+      "open-source"
+    ],
+    "difficulty": "intermediate",
+    "rating": 7
+  },
+  "collected_at": "2026-09-10T12:25:15.892872+00:00",
+  "analyzed_at": "2026-09-10T12:25:28.608589+00:00",
+  "status": "published"
+}

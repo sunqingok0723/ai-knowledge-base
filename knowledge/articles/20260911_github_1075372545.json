@@ -1,0 +1,24 @@
+{
+  "id": "20260911_github_1075372545",
+  "title": "agency-agents",
+  "source_url": "https://github.com/msitarzewski/agency-agents",
+  "source": "github",
+  "summary": "agency-agents 是一个开源项目，旨在提供一套完整的 AI 代理集合，覆盖前端开发、社区运营、创意生成、现实核查等多种角色。每个代理都具备独特个性、工作流程和可交付成果，用户可像调用一个虚拟 AI 机构一样按需使用。项目强调专业化与人格化，适合快速搭建多角色 AI 协作场景。",
+  "content": {
+    "key_points": [
+      "提供多种专业化 AI 代理，覆盖前端、社区、创意、审核等角色",
+      "每个代理具有独特个性、流程和可交付成果",
+      "定位为“触手可及的完整 AI 机构”，强调多角色协作与即用性"
+    ],
+    "tech_tags": [
+      "agent",
+      "llm",
+      "multi-agent"
+    ],
+    "difficulty": "intermediate",
+    "rating": 7
+  },
+  "collected_at": "2026-09-11T12:23:39.301540+00:00",
+  "analyzed_at": "2026-09-11T12:24:14.121332+00:00",
+  "status": "published"
+}

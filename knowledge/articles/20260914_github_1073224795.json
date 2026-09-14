@@ -1,0 +1,25 @@
+{
+  "id": "20260914_github_1073224795",
+  "title": "superpowers",
+  "source_url": "https://github.com/obra/superpowers",
+  "source": "github",
+  "summary": "superpowers 是由 obra 开发的一个面向 AI Agent 的技能框架与软件开发方法论。该项目旨在为基于 LLM 的智能体提供一套可复用的技能（skills）组织方式，使 Agent 能够像人类开发者一样掌握并调用多种能力来完成复杂任务。它同时提出了一套配套的软件开发方法论，强调以 Agent 为核心的工作流设计。项目以「works」为口号，突出实用性和可落地性，适合希望构建生产级 Agent 应用的开发者参考。",
+  "content": {
+    "key_points": [
+      "提供面向 AI Agent 的技能（skills）框架，支持能力的模块化组织与复用",
+      "附带一套以 Agent 为核心的软件开发方法论，强调实用可落地",
+      "定位为 agentic 应用的基础设施，适合构建生产级智能体系统"
+    ],
+    "tech_tags": [
+      "agent",
+      "llm",
+      "framework",
+      "software-engineering"
+    ],
+    "difficulty": "intermediate",
+    "rating": 7
+  },
+  "collected_at": "2026-09-14T14:29:46.517490+00:00",
+  "analyzed_at": "2026-09-14T14:29:48.981844+00:00",
+  "status": "published"
+}

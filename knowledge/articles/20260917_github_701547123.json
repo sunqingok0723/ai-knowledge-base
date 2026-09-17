@@ -1,0 +1,26 @@
+{
+  "id": "20260917_github_701547123",
+  "title": "open-webui",
+  "source_url": "https://github.com/open-webui/open-webui",
+  "source": "github",
+  "summary": "Open WebUI 是一个用户友好的开源 AI 交互界面，支持 Ollama、OpenAI API 等多种后端。它提供类似 ChatGPT 的对话体验，可完全离线运行，支持多模型切换、RAG 检索增强、文档上传、多用户管理等丰富功能。该项目基于 Svelte 和 Python 构建，部署简便，适合个人和企业快速搭建私有化 AI 对话平台，是自托管 LLM 应用的热门选择。",
+  "content": {
+    "key_points": [
+      "支持 Ollama、OpenAI API 等多种 LLM 后端，可完全离线运行",
+      "内置 RAG 检索增强、文档上传、多模型切换等丰富功能",
+      "提供多用户管理与权限控制，适合企业私有化部署",
+      "基于 Svelte + Python 构建，Docker 一键部署，上手门槛低"
+    ],
+    "tech_tags": [
+      "llm",
+      "rag",
+      "ollama",
+      "self-hosted"
+    ],
+    "difficulty": "beginner",
+    "rating": 9
+  },
+  "collected_at": "2026-09-17T12:49:51.901495+00:00",
+  "analyzed_at": "2026-09-17T12:50:24.214185+00:00",
+  "status": "published"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "20260919_github_1142983825",
+  "title": "andrej-karpathy-skills",
+  "source_url": "https://github.com/multica-ai/andrej-karpathy-skills",
+  "source": "github",
+  "summary": "该项目是一个基于 Andrej Karpathy 对 LLM 编码陷阱的观察而提炼出的单一 CLAUDE.md 文件，旨在改善 Claude Code 的行为表现。通过将 Karpathy 关于大语言模型在代码生成中常见问题的洞见转化为具体的指令配置，帮助开发者规避 LLM 编码过程中的典型错误，提升 AI 辅助编程的质量和可靠性。项目形式简洁，易于集成到 Claude Code 工作流中。",
+  "content": {
+    "key_points": [
+      "基于 Andrej Karpathy 对 LLM 编码陷阱的观察提炼而成",
+      "以单一 CLAUDE.md 文件形式提供，便于集成使用",
+      "目标是改善 Claude Code 在编码任务中的行为表现",
+      "帮助开发者规避 LLM 代码生成中的常见错误模式"
+    ],
+    "tech_tags": [
+      "llm",
+      "agent",
+      "prompt-engineering",
+      "code-generation"
+    ],
+    "difficulty": "beginner",
+    "rating": 7
+  },
+  "collected_at": "2026-09-19T12:05:49.117212+00:00",
+  "analyzed_at": "2026-09-19T12:05:59.163546+00:00",
+  "status": "published"
+}

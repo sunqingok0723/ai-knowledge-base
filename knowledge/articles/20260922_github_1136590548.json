@@ -1,0 +1,26 @@
+{
+  "id": "20260922_github_1136590548",
+  "title": "ECC",
+  "source_url": "https://github.com/affaan-m/ECC",
+  "source": "github",
+  "summary": "ECC 是一个面向 AI Agent 框架的性能优化系统，旨在提升 Claude Code、Codex、Opencode、Cursor 等主流 Agent 工具的运行效率与能力。项目围绕技能（Skills）、本能（Instincts）、记忆（Memory）、安全（Security）以及研究优先的开发范式（Research-first Development）构建，通过模块化设计增强 Agent 的上下文管理、行为决策与安全防护能力。其核心理念是让 Agent 在复杂任务中具备更强的自适应性与持续学习能力，同时兼顾安全性与可扩展性，适用于需要深度定制和性能调优的 Agent 开发场景。",
+  "content": {
+    "key_points": [
+      "面向 Claude Code、Codex、Opencode、Cursor 等多平台 Agent 框架的通用性能优化系统",
+      "核心模块包括技能、本能、记忆、安全与研究优先开发范式，提升 Agent 自适应与学习能力",
+      "强调安全性与可扩展性，适用于需要深度定制和性能调优的 Agent 开发场景"
+    ],
+    "tech_tags": [
+      "llm",
+      "agent",
+      "memory",
+      "security",
+      "developer-tools"
+    ],
+    "difficulty": "advanced",
+    "rating": 8
+  },
+  "collected_at": "2026-09-22T12:52:57.429684+00:00",
+  "analyzed_at": "2026-09-22T12:53:04.110223+00:00",
+  "status": "published"
+}

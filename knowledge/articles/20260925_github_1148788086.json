@@ -1,0 +1,24 @@
+{
+  "id": "20260925_github_1148788086",
+  "title": "skills",
+  "source_url": "https://github.com/mattpocock/skills",
+  "source": "github",
+  "summary": "这是知名 TypeScript 教育者 Matt Pocock 开源的 GitHub 仓库，收录了他个人 .agents 目录中实际使用的 AI Agent 技能（Skills）集合。这些技能面向真实工程场景，旨在帮助开发者将 AI Agent 能力落地到日常开发工作流中，例如代码生成、重构、测试等。仓库强调实用性和可直接复用性，而非理论演示，适合希望借助 Agent 提升工程效率的开发者参考和借鉴。",
+  "content": {
+    "key_points": [
+      "来自作者真实 .agents 目录，是经过实践验证的 Agent 技能集合",
+      "面向真实工程师的实用场景，强调可直接复用而非理论演示",
+      "作者 Matt Pocock 是知名 TypeScript 教育者，内容质量有保障"
+    ],
+    "tech_tags": [
+      "agent",
+      "llm",
+      "coding-agent"
+    ],
+    "difficulty": "intermediate",
+    "rating": 7
+  },
+  "collected_at": "2026-09-25T13:03:40.227559+00:00",
+  "analyzed_at": "2026-09-25T13:03:44.777343+00:00",
+  "status": "published"
+}

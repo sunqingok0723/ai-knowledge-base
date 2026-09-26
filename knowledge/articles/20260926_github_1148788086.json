@@ -1,0 +1,24 @@
+{
+  "id": "20260926_github_1148788086",
+  "title": "skills",
+  "source_url": "https://github.com/mattpocock/skills",
+  "source": "github",
+  "summary": "这是 Matt Pocock 在 GitHub 上开源的 skills 仓库，内容直接来自其个人 .agents 目录，定位为面向真实工程师的 AI Agent 技能集合。仓库汇集了作者在实际开发中沉淀的 Agent 配置与技能文件，可用于 Claude Code、Cursor 等支持 .agents 目录约定的 AI 编程工具，帮助开发者快速复用经过实践检验的 Agent 能力，提升日常编码与自动化工作流效率。",
+  "content": {
+    "key_points": [
+      "内容源自作者真实的 .agents 目录，属于实战沉淀而非理论示例",
+      "面向真实工程师场景，聚焦 AI 编程 Agent 的技能配置复用",
+      "可直接用于支持 .agents 约定的 AI 编码工具（如 Claude Code 等）"
+    ],
+    "tech_tags": [
+      "agent",
+      "llm",
+      "coding-agent"
+    ],
+    "difficulty": "intermediate",
+    "rating": 7
+  },
+  "collected_at": "2026-09-26T12:31:21.797182+00:00",
+  "analyzed_at": "2026-09-26T12:31:25.847504+00:00",
+  "status": "published"
+}
